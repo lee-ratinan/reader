@@ -1,9 +1,5 @@
 [
   {
-    "name": "Cover",
-    "file": "cover.md"
-  },
-  {
     "name": "Copyright",
     "file": "copyright.md"
   },
@@ -66,5 +62,229 @@
   {
     "name": "Chapter 11: Famous Face, Familiar Foe",
     "file": "chapter-11.md"
+  },
+  {
+    "name": "Chapter 12: Dead Diary, Dear Departed",
+    "file": "chapter-12.md"
+  },
+  {
+    "name": "Chapter 13: The Deadly Delusion",
+    "file": "chapter-13.md"
+  },
+  {
+    "name": "Chapter 14: Shoulder for the Sorrower",
+    "file": "chapter-14.md"
+  },
+  {
+    "name": "Chapter 15: We Are Not In Khlong Luang Anymore",
+    "file": "chapter-15.md"
+  },
+  {
+    "name": "Special Chapter 1: A Study in Slaughterfest",
+    "file": "chapter-15-special.md"
+  },
+  {
+    "name": "Chapter 16: Hougang, We’ve Had a Problem",
+    "file": "chapter-16.md"
+  },
+  {
+    "name": "Chapter 17: The Phantom of Buangkok Street",
+    "file": "chapter-17.md"
+  },
+  {
+    "name": "Chapter 18: Mischief Managed",
+    "file": "chapter-18.md"
+  },
+  {
+    "name": "Chapter 19: Brotherhood and Belonging",
+    "file": "chapter-19.md"
+  },
+  {
+    "name": "Chapter 20: Past, Present, and Pain",
+    "file": "chapter-20.md"
+  },
+  {
+    "name": "Special Chapter 2: The Oppa’s Offer",
+    "file": "chapter-20-special.md"
+  },
+  {
+    "name": "Chapter 21: The Trio’s Trip",
+    "file": "chapter-21.md"
+  },
+  {
+    "name": "Chapter 22: Patong, Paradise, Phi Phi, and Promises",
+    "file": "chapter-22.md"
+  },
+  {
+    "name": "Chapter 23: Karma’s a Bitch",
+    "file": "chapter-23.md"
+  },
+  {
+    "name": "Chapter 24: Proof, Paper, and Pride",
+    "file": "chapter-24.md"
+  },
+  {
+    "name": "Chapter 25: The Curse and the Cause",
+    "file": "chapter-25.md"
+  },
+  {
+    "name": "Chapter 26: Denial, Discovery, and Desire",
+    "file": "chapter-26.md"
+  },
+  {
+    "name": "Chapter 27: Memories and Milestones",
+    "file": "chapter-27.md"
+  },
+  {
+    "name": "Chapter 28: Research, Rivalry, and Regret",
+    "file": "chapter-28.md"
+  },
+  {
+    "name": "Chapter 29: Cameras, Captivity, and Collapse",
+    "file": "chapter-29.md"
+  },
+  {
+    "name": "Chapter 30: Search, Search, and Search",
+    "file": "chapter-30.md"
+  },
+  {
+    "name": "Chapter 31: The Final Problem",
+    "file": "chapter-31.md"
+  },
+  {
+    "name": "Chapter 32: Brand-New Day",
+    "file": "chapter-32.md"
+  },
+  {
+    "name": "Part 2: Gravitas Solis",
+    "file": "part-02.md"
+  },
+  {
+    "name": "Chapter 33: Shinjuku’s Sun",
+    "file": "chapter-33.md"
+  },
+  {
+    "name": "Chapter 34: ",
+    "file": "chapter-34.md"
+  },
+  {
+    "name": "Chapter 35: ",
+    "file": "chapter-35.md"
+  },
+  {
+    "name": "Chapter 36: ",
+    "file": "chapter-36.md"
+  },
+  {
+    "name": "Chapter 37: ",
+    "file": "chapter-37.md"
+  },
+  {
+    "name": "Chapter 38: ",
+    "file": "chapter-38.md"
+  },
+  {
+    "name": "Chapter 39: ",
+    "file": "chapter-39.md"
+  },
+  {
+    "name": "Chapter 40: ",
+    "file": "chapter-40.md"
+  },
+  {
+    "name": "Chapter 41: ",
+    "file": "chapter-41.md"
+  },
+  {
+    "name": "Chapter 42: ",
+    "file": "chapter-42.md"
+  },
+  {
+    "name": "Chapter 43: ",
+    "file": "chapter-43.md"
+  },
+  {
+    "name": "Chapter 44: ",
+    "file": "chapter-44.md"
+  },
+  {
+    "name": "Chapter 45: ",
+    "file": "chapter-45.md"
+  },
+  {
+    "name": "Chapter 46: ",
+    "file": "chapter-46.md"
+  },
+  {
+    "name": "Chapter 47: ",
+    "file": "chapter-47.md"
+  },
+  {
+    "name": "Chapter 48: ",
+    "file": "chapter-48.md"
+  },
+  {
+    "name": "Chapter 49: ",
+    "file": "chapter-49.md"
+  },
+  {
+    "name": "Chapter 50: ",
+    "file": "chapter-50.md"
+  },
+  {
+    "name": "Chapter 51: ",
+    "file": "chapter-51.md"
+  },
+  {
+    "name": "Chapter 52: ",
+    "file": "chapter-52.md"
+  },
+  {
+    "name": "Chapter 53: ",
+    "file": "chapter-53.md"
+  },
+  {
+    "name": "Chapter 54: ",
+    "file": "chapter-54.md"
+  },
+  {
+    "name": "Chapter 55: ",
+    "file": "chapter-55.md"
+  },
+  {
+    "name": "Chapter 56: ",
+    "file": "chapter-56.md"
+  },
+  {
+    "name": "Chapter 57: ",
+    "file": "chapter-57.md"
+  },
+  {
+    "name": "Chapter 58: ",
+    "file": "chapter-58.md"
+  },
+  {
+    "name": "Chapter 59: ",
+    "file": "chapter-59.md"
+  },
+  {
+    "name": "Chapter 60: ",
+    "file": "chapter-60.md"
+  },
+  {
+    "name": "Chapter 61: ",
+    "file": "chapter-61.md"
+  },
+  {
+    "name": "Chapter 62: ",
+    "file": "chapter-62.md"
+  },
+  {
+    "name": "Chapter 63: ",
+    "file": "chapter-63.md"
+  },
+  {
+    "name": "Chapter 64: ",
+    "file": "chapter-64.md"
   }
 ]

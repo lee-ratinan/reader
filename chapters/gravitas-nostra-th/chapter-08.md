@@ -174,4 +174,4 @@
 
 “ก็วันนั้นแหละ คือวันที่กูพยายามที่จะฆ่าตัวตาย”
 
-<div style="text-align:center"><img alt="Taipei" src="http://127.0.0.1:8888/novel/md-files/images/location-taipei.jpg" style="width:80%;" /></div>
+[//]: # (<div style="text-align:center"><img alt="Taipei" src="http://127.0.0.1:8888/novel/md-files/images/location-taipei.jpg" style="width:80%;" /></div>)

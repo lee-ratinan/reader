@@ -26,27 +26,50 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['passcode'])) {
 $is_authenticated = isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true;
 
 // Simple Markdown to HTML parser function
-function parse_markdown($text)
+function parse_markdown($text): string
 {
-    $text = htmlspecialchars($text, ENT_QUOTES, 'UTF-8');
-    // Headers
+    // 1. Protect raw HTML blocks or tags we want to preserve before escaping the rest
+    // We can use placeholders or selectively escape. A safer approach for a lightweight
+    // parser is to run htmlspecialchars with flags that allow specific tags, or process
+    // inline elements carefully.
+    // For simplicity and safety against XSS while allowing your specific styling/ruby tags:
+    // We convert special chars *except* for our allowed HTML tags.
+    // Escape general HTML to prevent unwanted injection, then safely restore specific tags:
+    $text = htmlspecialchars($text, ENT_NOQUOTES, 'UTF-8');
+    // Restore allowed HTML tags and their attributes (ruby, rt, rp)
+    $allowed_tags = ['ruby', '/ruby', 'rt', '/rt', 'rp', '/rp'];
+    foreach ($allowed_tags as $tag) {
+        $text = str_replace(htmlspecialchars("<$tag>", ENT_NOQUOTES, 'UTF-8'), "<$tag>", $text);
+    }
+    // 2. Markdown Headers
     $text = preg_replace('/^# (.*?)$/m', '<h1 class="text-3xl font-bold my-4">$1</h1>', $text);
     $text = preg_replace('/^## (.*?)$/m', '<h2 class="text-2xl font-semibold my-3">$1</h2>', $text);
     $text = preg_replace('/^### (.*?)$/m', '<h3 class="text-xl font-medium my-2">$1</h3>', $text);
-    // Bold & Italics
+    $text = preg_replace('/^#### (.*?)$/m', '<h4 class="text-lg font-medium my-2">$1</h4>', $text);
+    // 3. Bold & Italics
     $text = preg_replace('/\*\*(.*?)\*\*/s', '<strong>$1</strong>', $text);
     $text = preg_replace('/\*(.*?)\*/s', '<em>$1</em>', $text);
-    // Paragraphs
+    // 4. Line-by-line processing for paragraphs
     $lines = explode("\n", $text);
     $html = '';
+    $inside_div = false;
     foreach ($lines as $line) {
-        $line = trim($line);
-        if (empty($line)) {
+        $trimmed = trim($line);
+        // Track if we are inside a custom HTML block like <div class="...">
+        if (str_starts_with($trimmed, '<div')) {
+            $inside_div = true;
+        }
+        if (empty($trimmed)) {
             $html .= '<br>';
-        } else if (!str_starts_with($line, '<h')) {
-            $html .= '<p class="my-2 leading-relaxed">' . $line . '</p>';
+        } else if ($inside_div || str_starts_with($trimmed, '<h') || str_starts_with($trimmed, '</div')) {
+            // Output raw if it's a header, container tag, or inside a custom div block
+            $html .= $line . "\n";
         } else {
-            $html .= $line;
+            // Wrap standard lines in paragraphs
+            $html .= '<p class="my-2 leading-relaxed">' . $line . '</p>';
+        }
+        if (str_starts_with($trimmed, '</div>')) {
+            $inside_div = false;
         }
     }
     return $html;
@@ -88,14 +111,18 @@ if (file_exists($BOOKS_JSON)) {
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+TC:wght@200..900&family=Noto+Serif+Thai:wght@100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+TC:wght@200..900&family=Noto+Serif+Thai:wght@100..900&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Noto Serif Thai', 'Noto Serif JP', 'Noto Serif TC', serif;
-        }
+        body {font-family: 'Noto Serif Thai', 'Noto Serif JP', 'Noto Serif TC', serif;}
+        h1 {font-size:1.6em!important;}
+        h2 {font-size:1.4em!important;}
+        h3 {font-size:1.2em!important;}
+        h4 {font-size:1.1em!important;}
+        h1, h2, h3, h4 {font-weight:bold!important;margin-bottom:1.5em!important;}
+        p {margin-bottom:1em!important;}
+        .center {text-align:center!important;}
     </style>
+    <script src="marked.min.js"></script>
 </head>
 <body
     class="h-full bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-200 flex flex-col">
@@ -213,18 +240,48 @@ if (file_exists($BOOKS_JSON)) {
 
         <?php else: ?>
             <!-- READER VIEW -->
+            <?php
+            // Find the current chapter index and prev/next links
+            $prev_chapter = null;
+            $next_chapter = null;
+
+            // If we are looking at cover.md, "Next" should point to the first chapter
+            if ($chapter_file === 'cover.md') {
+                if (!empty($chapters)) {
+                    $next_chapter = $chapters[0]['file'];
+                }
+            } else {
+                // Find index among chapters
+                for ($i = 0; $i < count($chapters); $i++) {
+                    if ($chapters[$i]['file'] === $chapter_file) {
+                        // Previous link
+                        if ($i === 0) {
+                            $prev_chapter = 'cover.md'; // Go back to cover if at chapter 1
+                        } else {
+                            $prev_chapter = $chapters[$i - 1]['file'];
+                        }
+
+                        // Next link
+                        if ($i < count($chapters) - 1) {
+                            $next_chapter = $chapters[$i + 1]['file'];
+                        }
+                        break;
+                    }
+                }
+            }
+            ?>
             <div class="flex gap-8">
                 <!-- Chapter Drawer / Sidebar -->
-                <aside id="chapter-sidebar" class="fixed inset-y-0 left-0 z-40 w-72 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 p-6 -translate-x-full transition-transform duration-200 ease-in-out shadow-2xl">
-                    <br/><br/><br/>
-                    <div class="flex justify-between items-center mb-4">
+                <aside id="chapter-sidebar" class="fixed inset-y-0 left-0 z-40 w-72 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 p-6 py-8 -translate-x-full transition-transform duration-200 ease-in-out shadow-2xl">
+                    <div class="flex justify-between items-center mt-10 mb-3">
                         <h3 class="font-bold">Table of Contents</h3>
                         <button onclick="toggleSidebar()" class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 text-xl font-bold">
                             &times;
                         </button>
                     </div>
 
-                    <ul class="space-y-2 overflow-y-auto max-h-[calc(100vh-120px)]">
+                    <ul class="space-y-2 overflow-y-auto max-h-[calc(100vh-140px)]">
+                        <a href="index.php?book=<?= $book_id ?>&chapter=cover.md" class="block px-3 py-2 rounded-lg text-sm font-medium transition <?= $chapter_file === 'cover.md' ? 'bg-blue-600 text-white' : 'hover:bg-gray-100 dark:hover:bg-gray-800' ?>">Cover</a>
                         <?php foreach ($chapters as $ch):
                             $filepath = "chapters/" . $book_id . "/" . $ch['file'];
                             $exists = file_exists($filepath);
@@ -236,32 +293,56 @@ if (file_exists($BOOKS_JSON)) {
                                         <?= htmlspecialchars($ch['name']) ?>
                                     </a>
                                 <?php else: ?>
-                                    <span
-                                        class="block px-3 py-2 rounded-lg text-sm font-medium text-red-500 dark:text-red-400 cursor-not-allowed opacity-75"
-                                        title="Chapter file missing">
-                        <?= htmlspecialchars($ch['name']) ?> (Missing)
-                    </span>
+                                    <span class="block px-3 py-2 rounded-lg text-sm font-medium text-red-500 dark:text-red-400 cursor-not-allowed opacity-75" title="Chapter file missing">
+                                        <?= htmlspecialchars($ch['name']) ?> (Missing)
+                                    </span>
                                 <?php endif; ?>
                             </li>
                         <?php endforeach; ?>
                     </ul>
                 </aside>
-
                 <!-- Markdown Content Container -->
                 <div class="flex-grow bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-6 md:p-10 rounded-xl shadow-sm">
-                    <?php
-                    $target_file = "chapters/" . $book_id . "/" . basename($chapter_file);
-                    if (file_exists($target_file)) {
-                        $markdown_content = file_get_contents($target_file);
-                        echo parse_markdown($markdown_content);
-                    } else {
-                        echo '<h2 class="text-xl font-bold text-red-500">File Not Found</h2><p class="mt-2">The requested chapter file could not be loaded.</p>';
-                    }
-                    ?>
+                    <p>
+                    <?php if ($prev_chapter !== null): ?>
+                        <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($prev_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition">← Previous Chapter</a>
+                    <?php else: ?>
+                        <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed">← Previous Chapter</span>
+                    <?php endif; ?>
+                    <?php if ($next_chapter !== null): ?>
+                        <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($next_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition">Next Chapter →</a>
+                    <?php else: ?>
+                        <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed">Next Chapter →</span>
+                    <?php endif; ?>
+                    </p>
+                    <hr class="my-8" />
+                    <div id="content-container"></div>
+                    <hr class="my-8" />
+                    <p>
+                        <?php if ($prev_chapter !== null): ?>
+                            <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($prev_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition">← Previous Chapter</a>
+                        <?php else: ?>
+                            <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed">← Previous Chapter</span>
+                        <?php endif; ?>
+                        <?php if ($next_chapter !== null): ?>
+                            <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($next_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition">Next Chapter →</a>
+                        <?php else: ?>
+                            <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed">Next Chapter →</span>
+                        <?php endif; ?>
+                    </p>
                 </div>
             </div>
-
             <script>
+                <?php
+                $target_file = "chapters/" . $book_id . "/" . basename($chapter_file);
+                if (file_exists($target_file)) {
+                    $markdown_content = file_get_contents($target_file);
+                } else {
+                    $markdown_content = '# Error 404; Chapter Not Found';
+                }
+                ?>
+                const rawMarkdown = <?= json_encode($markdown_content) ?>;
+                document.getElementById('content-container').innerHTML = marked.parse(rawMarkdown);
                 function toggleSidebar() {
                     const sidebar = document.getElementById('chapter-sidebar');
                     const backdrop = document.getElementById('sidebar-backdrop');

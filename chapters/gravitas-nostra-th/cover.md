@@ -6,6 +6,8 @@ https://lee.ratinan.com</p>
 <br/>
 <br/>
 
+<div class="center">
+
 # Gravitas Nostra: The Gravity Between Us
 # พื้นที่พักใจกับใครสักคน
 
@@ -17,4 +19,6 @@ https://lee.ratinan.com</p>
 <br/>
 <br/>
 
-## &copy; 2026 Li Rongqin
+**&copy; 2026 Li Rongqin**
+
+</div>
