@@ -121,7 +121,9 @@ if (file_exists($BOOKS_JSON)) {
         h1, h2, h3, h4 {font-weight:bold!important;margin-bottom:1.5em!important;}
         p {margin-bottom:1em!important;}
         .center {text-align:center!important;}
+        blockquote {border-left:4px solid #888;padding-left:1em;margin-left:0;}
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="marked.min.js"></script>
 </head>
 <body
@@ -181,33 +183,26 @@ if (file_exists($BOOKS_JSON)) {
         <div class="max-w-5xl mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center space-x-4">
                 <?php if ($book_id): ?>
-                    <a href="index.php"
-                       class="text-sm font-medium px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition">
-                        ← Books List
-                    </a>
-                    <button onclick="toggleSidebar()"
-                            class="text-sm font-medium px-3 py-1.5 rounded-lg bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 hover:bg-blue-100 transition">
-                        📖 Chapters
-                    </button>
+                    <a href="index.php" class="text-sm font-medium px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition"><i class="fa-solid fa-chevron-left"></i></a>
+                    <button onclick="toggleSidebar()" class="text-sm font-medium px-3 py-1.5 rounded-lg bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 hover:bg-blue-100 transition"><i class="fa-solid fa-bars"></i></button>
                 <?php else: ?>
-                    <h1 class="font-bold text-lg">My Writing Portal</h1>
+                    <a href="#" class="text-sm font-medium px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition"><i class="fa-solid fa-home"></i></a>
                 <?php endif; ?>
+                <b>READER</b>
             </div>
-
             <div class="flex items-center space-x-3">
                 <!-- Theme Switcher -->
-                <select onchange="setTheme(this.value)"
-                        class="text-sm px-2.5 py-1.5 rounded-lg border border-gray-300 dark:border-gray-700 bg-transparent focus:outline-none">
-                    <option value="light">Light</option>
-                    <option value="dark">Dark</option>
-                    <option value="system">System</option>
-                </select>
+                <label>
+                    <select onchange="setTheme(this.value)" class="text-sm px-1.5 py-1.5 rounded-lg border border-gray-300 dark:border-gray-700 bg-transparent focus:outline-none">
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
+                        <option value="system">System</option>
+                    </select>
+                </label>
                 <script>
                     document.querySelector('select[onchange*="setTheme"]').value = localStorage.getItem('theme') || 'system';
                 </script>
-
-                <a href="index.php?action=logout"
-                   class="text-sm text-red-600 dark:text-red-400 hover:underline">Logout</a>
+                <a href="index.php?action=logout" class="text-sm text-red-600 dark:text-red-400 hover:underline">Logout</a>
             </div>
         </div>
     </header>
@@ -237,14 +232,12 @@ if (file_exists($BOOKS_JSON)) {
                     </a>
                 <?php endforeach; ?>
             </div>
-
         <?php else: ?>
             <!-- READER VIEW -->
             <?php
             // Find the current chapter index and prev/next links
             $prev_chapter = null;
             $next_chapter = null;
-
             // If we are looking at cover.md, "Next" should point to the first chapter
             if ($chapter_file === 'cover.md') {
                 if (!empty($chapters)) {
@@ -275,9 +268,6 @@ if (file_exists($BOOKS_JSON)) {
                 <aside id="chapter-sidebar" class="fixed inset-y-0 left-0 z-40 w-72 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 p-6 py-8 -translate-x-full transition-transform duration-200 ease-in-out shadow-2xl">
                     <div class="flex justify-between items-center mt-10 mb-3">
                         <h3 class="font-bold">Table of Contents</h3>
-                        <button onclick="toggleSidebar()" class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 text-xl font-bold">
-                            &times;
-                        </button>
                     </div>
 
                     <ul class="space-y-2 overflow-y-auto max-h-[calc(100vh-140px)]">
@@ -303,31 +293,33 @@ if (file_exists($BOOKS_JSON)) {
                 </aside>
                 <!-- Markdown Content Container -->
                 <div class="flex-grow bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-6 md:p-10 rounded-xl shadow-sm">
+                    <h1><?= $current_book['title'] ?></h1>
                     <p>
                     <?php if ($prev_chapter !== null): ?>
-                        <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($prev_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition">← Previous Chapter</a>
+                        <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($prev_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition"><i class="fa-solid fa-chevron-left"></i></a>
                     <?php else: ?>
-                        <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed">← Previous Chapter</span>
+                        <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed"><i class="fa-solid fa-chevron-left"></i></span>
                     <?php endif; ?>
                     <?php if ($next_chapter !== null): ?>
-                        <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($next_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition">Next Chapter →</a>
+                        <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($next_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition"><i class="fa-solid fa-chevron-right"></i></a>
                     <?php else: ?>
-                        <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed">Next Chapter →</span>
+                        <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed"><i class="fa-solid fa-chevron-right"></i></span>
                     <?php endif; ?>
+                        &nbsp; <span id="word-count"></span>
                     </p>
                     <hr class="my-8" />
                     <div id="content-container"></div>
                     <hr class="my-8" />
                     <p>
                         <?php if ($prev_chapter !== null): ?>
-                            <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($prev_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition">← Previous Chapter</a>
+                            <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($prev_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition"><i class="fa-solid fa-chevron-left"></i></a>
                         <?php else: ?>
-                            <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed">← Previous Chapter</span>
+                            <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed"><i class="fa-solid fa-chevron-left"></i></span>
                         <?php endif; ?>
                         <?php if ($next_chapter !== null): ?>
-                            <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($next_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition">Next Chapter →</a>
+                            <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($next_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition"><i class="fa-solid fa-chevron-right"></i></a>
                         <?php else: ?>
-                            <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed">Next Chapter →</span>
+                            <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed"><i class="fa-solid fa-chevron-right"></i></span>
                         <?php endif; ?>
                     </p>
                 </div>
@@ -342,14 +334,21 @@ if (file_exists($BOOKS_JSON)) {
                 }
                 ?>
                 const rawMarkdown = <?= json_encode($markdown_content) ?>;
-                document.getElementById('content-container').innerHTML = marked.parse(rawMarkdown);
+                let parsedMarkdown = marked.parse(rawMarkdown);
+                document.getElementById('content-container').innerHTML = parsedMarkdown;
+                <?php if (str_contains($chapter_file, 'chapter')) : ?>
+                const seg = new Intl.Segmenter('th', {granularity: 'word'});
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(parsedMarkdown, 'text/html');
+                const plainText = doc.body.textContent || '';
+                const count = Array.from(seg.segment(plainText)).filter(s => s.isWordLike).length;
+                document.getElementById('word-count').innerText = 'Word count: ' + count.toLocaleString();
+                <?php endif; ?>
                 function toggleSidebar() {
                     const sidebar = document.getElementById('chapter-sidebar');
                     const backdrop = document.getElementById('sidebar-backdrop');
-
                     sidebar.classList.toggle('-translate-x-full');
                     sidebar.classList.toggle('translate-x-0');
-
                     if (backdrop) {
                         backdrop.classList.toggle('hidden');
                     }
