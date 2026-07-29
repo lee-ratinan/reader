@@ -11,9 +11,15 @@ if (isset($_GET['action']) && $_GET['action'] === 'logout') {
     header('Location: index.php');
     exit;
 }
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['passcode'])) {
-    if ($_POST['passcode'] === $PASSCODE) {
+$pc1 = $_POST['pc1'] ?? '';
+$pc2 = $_POST['pc2'] ?? '';
+$pc3 = $_POST['pc3'] ?? '';
+$pc4 = $_POST['pc4'] ?? '';
+$pc5 = $_POST['pc5'] ?? '';
+$pc6 = $_POST['pc6'] ?? '';
+$pc  = "{$pc1}{$pc2}{$pc3}{$pc4}{$pc5}{$pc6}";
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($pc)) {
+    if ($pc === $PASSCODE) {
         $_SESSION['authenticated'] = true;
         header('Location: index.php');
         exit;
@@ -86,7 +92,10 @@ if (file_exists($BOOKS_JSON)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Writing Portal</title>
+    <title>Reader</title>
+    <!-- Favicons -->
+    <link href="https://lee.ratinan.com/assets/img/favicon.png" rel="icon">
+    <link href="https://lee.ratinan.com/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         // Tailwind dark mode configuration
@@ -122,12 +131,14 @@ if (file_exists($BOOKS_JSON)) {
         p {margin-bottom:1em!important;}
         .center {text-align:center!important;}
         blockquote {border-left:4px solid #888;padding-left:1em;margin-left:0;}
+        /* FORM */
+        .otp-inputs input {width: 40px;height: 40px;text-align: center;font-size: 1.2rem;border: 1px solid #ccc;border-radius: 4px;color:#000;}
+        .otp-inputs input:focus {border-color: #007bff;outline: none;}
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="marked.min.js"></script>
 </head>
-<body
-    class="h-full bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-200 flex flex-col">
+<body class="h-full bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-200 flex flex-col">
 
 <?php if (!$is_authenticated): ?>
     <!-- LOGIN VIEW -->
@@ -140,18 +151,80 @@ if (file_exists($BOOKS_JSON)) {
                     <?= $login_error ?>
                 </div>
             <?php endif; ?>
-            <form method="POST" class="space-y-4">
-                <div>
-                    <label class="block text-sm font-medium mb-2">Enter 6-Digit Passcode</label>
-                    <input type="password" name="passcode" maxlength="6" pattern="[0-9]{6}" required
-                           class="w-full px-4 py-3 text-center tracking-widest text-lg rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                           placeholder="------">
+            <form method="post" id="otp-form" class="otp-container">
+                <div class="otp-inputs flex justify-center gap-[10px]">
+                    <label><input type="text" name="pc1" maxlength="1" pattern="[0-9]*" inputmode="numeric" autocomplete="one-time-code" required /></label>
+                    <label><input type="text" name="pc2" maxlength="1" pattern="[0-9]*" inputmode="numeric" required /></label>
+                    <label><input type="text" name="pc3" maxlength="1" pattern="[0-9]*" inputmode="numeric" required /></label>
+                    <label><input type="text" name="pc4" maxlength="1" pattern="[0-9]*" inputmode="numeric" required /></label>
+                    <label><input type="text" name="pc5" maxlength="1" pattern="[0-9]*" inputmode="numeric" required /></label>
+                    <label><input type="text" name="pc6" maxlength="1" pattern="[0-9]*" inputmode="numeric" required /></label>
                 </div>
-                <button type="submit"
-                        class="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors">
-                    Access Portal
-                </button>
+                <button type="submit" id="submit-btn" style="display: none;">Verify</button>
             </form>
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    const form = document.getElementById("otp-form");
+                    const inputs = [...form.querySelectorAll(".otp-inputs input")];
+
+                    const handleOtpSubmit = () => {
+                        const otpValue = inputs.map(input => input.value).join("");
+                        if (otpValue.length === 6) {
+                            // Trigger form submission or custom validation function here
+                            form.submit();
+                        }
+                    };
+
+                    inputs.forEach((input, index) => {
+                        // Focus the first input on load
+                        if (index === 0) input.focus();
+
+                        // Handle typing and moving forward
+                        input.addEventListener("input", (e) => {
+                            const value = e.target.value;
+
+                            // Ensure only numbers are entered
+                            if (!/^[0-9]$/.test(value)) {
+                                e.target.value = "";
+                                return;
+                            }
+
+                            if (value && index < inputs.length - 1) {
+                                inputs[index + 1].focus();
+                            }
+
+                            handleOtpSubmit();
+                        });
+
+                        // Handle Backspace and moving backward
+                        input.addEventListener("keydown", (e) => {
+                            if (e.key === "Backspace") {
+                                if (input.value === "" && index > 0) {
+                                    inputs[index - 1].focus();
+                                    inputs[index - 1].value = "";
+                                } else {
+                                    input.value = "";
+                                }
+                                e.preventDefault();
+                            }
+                        });
+
+                        // Handle pasting a full 6-digit code
+                        input.addEventListener("paste", (e) => {
+                            e.preventDefault();
+                            const pasteData = e.clipboardData.getData("text").trim();
+
+                            if (/^\d{6}$/.test(pasteData)) {
+                                inputs.forEach((inp, idx) => {
+                                    inp.value = pasteData[idx];
+                                });
+                                inputs[inputs.length - 1].focus();
+                                handleOtpSubmit();
+                            }
+                        });
+                    });
+                });
+            </script>
         </div>
     </div>
 
