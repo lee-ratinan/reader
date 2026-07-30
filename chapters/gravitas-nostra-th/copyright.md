@@ -8,10 +8,10 @@ https://lee.ratinan.com</p>
 
 <div class="center">
 
-# Gravitas Nostra: The Gravity Between Us
-# พื้นที่พักใจกับใครสักคน
+### Gravitas Nostra: The Gravity Between Us
+### พื้นที่พักใจกับใครสักคน
 
-## by Li Rongqin
+#### by Li Rongqin
 
 <br/>
 <br/>
@@ -35,7 +35,7 @@ https://lee.ratinan.com</p>
 <br/>
 <br/>
 
-# Gravitas Nostra (The Gravity Between Us)
+### Gravitas Nostra (The Gravity Between Us)
 
 **พื้นที่พักใจกับใครสักคน**
 

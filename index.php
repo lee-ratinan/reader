@@ -120,7 +120,7 @@ if (file_exists($BOOKS_JSON)) {
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+TC:wght@200..900&family=Noto+Serif+Thai:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+TC:wght@200..900&family=Noto+Serif+Thai:wght@100..900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <style>
         body {font-family: 'Noto Serif Thai', 'Noto Serif JP', 'Noto Serif TC', serif;}
         h1 {font-size:1.6em!important;}
@@ -128,6 +128,9 @@ if (file_exists($BOOKS_JSON)) {
         h3 {font-size:1.2em!important;}
         h4 {font-size:1.1em!important;}
         h1, h2, h3, h4 {font-weight:bold!important;margin-bottom:1.5em!important;}
+        .type-chapter h1, .type-chapter h2 {display: none;}
+        .type-chapter h3, .type-chapter h4 {text-align: center; font-family: 'Alegreya', serif; font-size: 1.5em !important; font-weight: normal !important;}
+        .type-chapter h4 {font-style: italic;}
         p {margin-bottom:1em!important;}
         .center {text-align:center!important;}
         blockquote {border-left:4px solid #888;padding-left:1em;margin-left:0;}
@@ -335,6 +338,10 @@ if (file_exists($BOOKS_JSON)) {
                     }
                 }
             }
+            $class_name = 'type-reader';
+            if (str_contains($chapter_file, 'chapter')) {
+                $class_name = 'type-chapter';
+            }
             ?>
             <div class="flex gap-8">
                 <!-- Chapter Drawer / Sidebar -->
@@ -381,7 +388,7 @@ if (file_exists($BOOKS_JSON)) {
                         &nbsp; <span id="word-count"></span>
                     </p>
                     <hr class="my-8" />
-                    <div id="content-container"></div>
+                    <article class="<?= $class_name ?>" id="content-container"></article>
                     <hr class="my-8" />
                     <p>
                         <?php if ($prev_chapter !== null): ?>

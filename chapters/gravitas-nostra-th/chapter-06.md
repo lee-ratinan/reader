@@ -1,5 +1,9 @@
 ## 「 6. The Little Lament 」
 
+### CHAPTER SIX
+
+#### The Little Lament
+
 ปทุมธานี, ประเทศไทย
 
 แจ็ค:
