@@ -137,6 +137,14 @@ if (file_exists($BOOKS_JSON)) {
         /* FORM */
         .otp-inputs input {width: 40px;height: 40px;text-align: center;font-size: 1.2rem;border: 1px solid #ccc;border-radius: 4px;color:#000;}
         .otp-inputs input:focus {border-color: #007bff;outline: none;}
+        /* READER MODE */
+        #reader-mode-off {display:none;position:fixed;top:10px;right:10px;}
+        /* Reader Mode Active Styles */
+        body.reader-mode-active header,
+        body.reader-mode-active #before-article,
+        body.reader-mode-active #after-article,
+        body.reader-mode-active #reader-mode-on {display: none;}
+        body.reader-mode-active #reader-mode-off {display: inline-block;}
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="marked.min.js"></script>
@@ -372,36 +380,42 @@ if (file_exists($BOOKS_JSON)) {
                     </ul>
                 </aside>
                 <!-- Markdown Content Container -->
-                <div class="flex-grow bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-6 md:p-10 rounded-xl shadow-sm">
-                    <h1><?= $current_book['title'] ?></h1>
-                    <p>
-                    <?php if ($prev_chapter !== null): ?>
-                        <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($prev_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition"><i class="fa-solid fa-chevron-left"></i></a>
-                    <?php else: ?>
-                        <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed"><i class="fa-solid fa-chevron-left"></i></span>
-                    <?php endif; ?>
-                    <?php if ($next_chapter !== null): ?>
-                        <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($next_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition"><i class="fa-solid fa-chevron-right"></i></a>
-                    <?php else: ?>
-                        <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed"><i class="fa-solid fa-chevron-right"></i></span>
-                    <?php endif; ?>
-                        &nbsp; <span id="word-count"></span>
-                    </p>
-                    <hr class="my-8" />
+                <div class="flex-grow bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-4 md:p-6 rounded-xl shadow-sm">
+                    <div id="before-article">
+                        <h1><?= $current_book['title'] ?></h1>
+                        <p>
+                            <?php if ($prev_chapter !== null): ?>
+                                <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($prev_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition"><i class="fa-solid fa-chevron-left"></i></a>
+                            <?php else: ?>
+                                <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed"><i class="fa-solid fa-chevron-left"></i></span>
+                            <?php endif; ?>
+                            <?php if ($next_chapter !== null): ?>
+                                <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($next_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition"><i class="fa-solid fa-chevron-right"></i></a>
+                            <?php else: ?>
+                                <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed"><i class="fa-solid fa-chevron-right"></i></span>
+                            <?php endif; ?>
+                            &nbsp; <a id="reader-mode-on" href="#" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition">Reader Mode</a>
+                            &nbsp; <span id="word-count"></span>
+                        </p>
+                        <hr class="my-8"/>
+                    </div>
+                    <a id="reader-mode-off" href="#" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition">Turn off Reader Mode</a>
                     <article class="<?= $class_name ?>" id="content-container"></article>
-                    <hr class="my-8" />
-                    <p>
-                        <?php if ($prev_chapter !== null): ?>
-                            <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($prev_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition"><i class="fa-solid fa-chevron-left"></i></a>
-                        <?php else: ?>
-                            <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed"><i class="fa-solid fa-chevron-left"></i></span>
-                        <?php endif; ?>
-                        <?php if ($next_chapter !== null): ?>
-                            <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($next_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition"><i class="fa-solid fa-chevron-right"></i></a>
-                        <?php else: ?>
-                            <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed"><i class="fa-solid fa-chevron-right"></i></span>
-                        <?php endif; ?>
-                    </p>
+                    <div id="after-article">
+                        <hr class="my-8" />
+                        <p>
+                            <?php if ($prev_chapter !== null): ?>
+                                <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($prev_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition"><i class="fa-solid fa-chevron-left"></i></a>
+                            <?php else: ?>
+                                <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed"><i class="fa-solid fa-chevron-left"></i></span>
+                            <?php endif; ?>
+                            <?php if ($next_chapter !== null): ?>
+                                <a href="index.php?book=<?= $book_id ?>&chapter=<?= urlencode($next_chapter) ?>" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition"><i class="fa-solid fa-chevron-right"></i></a>
+                            <?php else: ?>
+                                <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed"><i class="fa-solid fa-chevron-right"></i></span>
+                            <?php endif; ?>
+                        </p>
+                    </div>
                 </div>
             </div>
             <script>
@@ -433,6 +447,15 @@ if (file_exists($BOOKS_JSON)) {
                         backdrop.classList.toggle('hidden');
                     }
                 }
+
+                const btnOn = document.getElementById('reader-mode-on');
+                const btnOff = document.getElementById('reader-mode-off');
+                btnOn.addEventListener('click', () => {
+                    document.body.classList.add('reader-mode-active');
+                });
+                btnOff.addEventListener('click', () => {
+                    document.body.classList.remove('reader-mode-active');
+                });
             </script>
         <?php endif; ?>
     </main>
