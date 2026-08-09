@@ -31,56 +31,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($pc)) {
 // Check Authentication
 $is_authenticated = isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true;
 
-// Simple Markdown to HTML parser function
-function parse_markdown($text): string
-{
-    // 1. Protect raw HTML blocks or tags we want to preserve before escaping the rest
-    // We can use placeholders or selectively escape. A safer approach for a lightweight
-    // parser is to run htmlspecialchars with flags that allow specific tags, or process
-    // inline elements carefully.
-    // For simplicity and safety against XSS while allowing your specific styling/ruby tags:
-    // We convert special chars *except* for our allowed HTML tags.
-    // Escape general HTML to prevent unwanted injection, then safely restore specific tags:
-    $text = htmlspecialchars($text, ENT_NOQUOTES, 'UTF-8');
-    // Restore allowed HTML tags and their attributes (ruby, rt, rp)
-    $allowed_tags = ['ruby', '/ruby', 'rt', '/rt', 'rp', '/rp'];
-    foreach ($allowed_tags as $tag) {
-        $text = str_replace(htmlspecialchars("<$tag>", ENT_NOQUOTES, 'UTF-8'), "<$tag>", $text);
-    }
-    // 2. Markdown Headers
-    $text = preg_replace('/^# (.*?)$/m', '<h1 class="text-3xl font-bold my-4">$1</h1>', $text);
-    $text = preg_replace('/^## (.*?)$/m', '<h2 class="text-2xl font-semibold my-3">$1</h2>', $text);
-    $text = preg_replace('/^### (.*?)$/m', '<h3 class="text-xl font-medium my-2">$1</h3>', $text);
-    $text = preg_replace('/^#### (.*?)$/m', '<h4 class="text-lg font-medium my-2">$1</h4>', $text);
-    // 3. Bold & Italics
-    $text = preg_replace('/\*\*(.*?)\*\*/s', '<strong>$1</strong>', $text);
-    $text = preg_replace('/\*(.*?)\*/s', '<em>$1</em>', $text);
-    // 4. Line-by-line processing for paragraphs
-    $lines = explode("\n", $text);
-    $html = '';
-    $inside_div = false;
-    foreach ($lines as $line) {
-        $trimmed = trim($line);
-        // Track if we are inside a custom HTML block like <div class="...">
-        if (str_starts_with($trimmed, '<div')) {
-            $inside_div = true;
-        }
-        if (empty($trimmed)) {
-            $html .= '<br>';
-        } else if ($inside_div || str_starts_with($trimmed, '<h') || str_starts_with($trimmed, '</div')) {
-            // Output raw if it's a header, container tag, or inside a custom div block
-            $html .= $line . "\n";
-        } else {
-            // Wrap standard lines in paragraphs
-            $html .= '<p class="my-2 leading-relaxed">' . $line . '</p>';
-        }
-        if (str_starts_with($trimmed, '</div>')) {
-            $inside_div = false;
-        }
-    }
-    return $html;
-}
-
 // Load Books Data
 $books = [];
 if (file_exists($BOOKS_JSON)) {
@@ -364,7 +314,6 @@ if ($book_id) {
                     <div class="flex justify-between items-center mt-10 mb-3">
                         <h3 class="font-bold">Table of Contents</h3>
                     </div>
-
                     <ul class="space-y-2 overflow-y-auto max-h-[calc(100vh-140px)]">
                         <a href="index.php?book=<?= $book_id ?>&chapter=cover.md" class="block px-3 py-2 rounded-lg text-sm font-medium transition <?= $chapter_file === 'cover.md' ? 'bg-blue-600 text-white' : 'hover:bg-gray-100 dark:hover:bg-gray-800' ?>">Cover</a>
                         <?php foreach ($chapters as $ch):
@@ -390,6 +339,7 @@ if ($book_id) {
                 <div class="flex-grow bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-4 md:p-6 rounded-xl shadow-sm">
                     <div id="before-article">
                         <a id="reader-mode-on" href="#" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition float-right"><i class="fa-solid fa-book-open"></i></a>
+                        <a id="reader-mode-on" href="printer.php?book=<?= $book_id ?>&chapter=<?= $chapter_file ?>" class="mr-2 px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition float-right" target="_blank"><i class="fa-solid fa-print"></i></a>
                         <h1><?= $current_book['title'] ?></h1>
                         <p>
                             <?php if ($prev_chapter !== null): ?>
