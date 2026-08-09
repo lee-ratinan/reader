@@ -86,9 +86,28 @@ $books = [];
 if (file_exists($BOOKS_JSON)) {
     $books = json_decode(file_get_contents($BOOKS_JSON), true);
 }
+
+// FOR LOGGED IN
+$book_id = $_GET['book'] ?? null;
+$chapter_file = $_GET['chapter'] ?? 'cover.md';
+
+$current_book = null;
+$chapters = [];
+
+if ($book_id) {
+    foreach ($books as $b) {
+        if ($b['id'] === $book_id) {
+            $current_book = $b;
+            break;
+        }
+    }
+    if ($current_book && file_exists($current_book['chapters_file'])) {
+        $chapters = json_decode(file_get_contents($current_book['chapters_file']), true);
+    }
+}
 ?>
 <!DOCTYPE html>
-<html lang="en" class="h-full">
+<html lang="<?= $current_book['language_code'] ?? 'en' ?>" class="h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -240,26 +259,6 @@ if (file_exists($BOOKS_JSON)) {
     </div>
 
 <?php else: ?>
-    <!-- LOGGED IN VIEWS -->
-    <?php
-    $book_id = $_GET['book'] ?? null;
-    $chapter_file = $_GET['chapter'] ?? 'cover.md';
-
-    $current_book = null;
-    $chapters = [];
-
-    if ($book_id) {
-        foreach ($books as $b) {
-            if ($b['id'] === $book_id) {
-                $current_book = $b;
-                break;
-            }
-        }
-        if ($current_book && file_exists($current_book['chapters_file'])) {
-            $chapters = json_decode(file_get_contents($current_book['chapters_file']), true);
-        }
-    }
-    ?>
 
     <!-- Top Navigation Bar -->
     <header
@@ -290,7 +289,15 @@ if (file_exists($BOOKS_JSON)) {
             </div>
         </div>
     </header>
-
+        <?php
+        $target_file = "chapters/" . $book_id . "/" . basename($chapter_file);
+        if (file_exists($target_file)) {
+            $markdown_content = file_get_contents($target_file);
+            echo '<script type="text/template" id="markdown-source">' . $markdown_content . '</script>';
+        } else {
+            echo '<script type="text/template" id="markdown-source"># Error 404; Chapter Not Found</script>';
+        }
+        ?>
     <main class="flex-grow max-w-5xl w-full mx-auto px-4 py-8 relative">
         <!-- Backdrop Overlay -->
         <div id="sidebar-backdrop" onclick="toggleSidebar()" class="fixed inset-0 bg-black/50 z-30 hidden transition-opacity"></div>
@@ -382,6 +389,7 @@ if (file_exists($BOOKS_JSON)) {
                 <!-- Markdown Content Container -->
                 <div class="flex-grow bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-4 md:p-6 rounded-xl shadow-sm">
                     <div id="before-article">
+                        <a id="reader-mode-on" href="#" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition float-right"><i class="fa-solid fa-book-open"></i></a>
                         <h1><?= $current_book['title'] ?></h1>
                         <p>
                             <?php if ($prev_chapter !== null): ?>
@@ -394,12 +402,11 @@ if (file_exists($BOOKS_JSON)) {
                             <?php else: ?>
                                 <span class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800/50 text-gray-400 dark:text-gray-600 border border-gray-200 dark:border-gray-800 cursor-not-allowed"><i class="fa-solid fa-chevron-right"></i></span>
                             <?php endif; ?>
-                            &nbsp; <a id="reader-mode-on" href="#" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition">Reader Mode</a>
                             &nbsp; <span id="word-count"></span>
                         </p>
                         <hr class="my-8"/>
                     </div>
-                    <a id="reader-mode-off" href="#" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition">Turn off Reader Mode</a>
+                    <a id="reader-mode-off" href="#" class="px-4 py-2 text-sm font-medium rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition"><i class="fa-solid fa-times"></i></a>
                     <article class="<?= $class_name ?>" id="content-container"></article>
                     <div id="after-article">
                         <hr class="my-8" />
@@ -419,15 +426,7 @@ if (file_exists($BOOKS_JSON)) {
                 </div>
             </div>
             <script>
-                <?php
-                $target_file = "chapters/" . $book_id . "/" . basename($chapter_file);
-                if (file_exists($target_file)) {
-                    $markdown_content = file_get_contents($target_file);
-                } else {
-                    $markdown_content = '# Error 404; Chapter Not Found';
-                }
-                ?>
-                const rawMarkdown = <?= json_encode($markdown_content) ?>;
+                const rawMarkdown = document.getElementById('markdown-source').innerHTML;
                 let parsedMarkdown = marked.parse(rawMarkdown);
                 document.getElementById('content-container').innerHTML = parsedMarkdown;
                 <?php if (str_contains($chapter_file, 'chapter')) : ?>
