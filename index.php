@@ -385,7 +385,8 @@ if ($book_id) {
                 const doc = parser.parseFromString(parsedMarkdown, 'text/html');
                 const plainText = doc.body.textContent || '';
                 const count = Array.from(seg.segment(plainText)).filter(s => s.isWordLike).length;
-                document.getElementById('word-count').innerText = 'Word count: ' + count.toLocaleString();
+                const minutes = Math.round(count / 200);
+                document.getElementById('word-count').innerText = 'Word count: ' + count.toLocaleString() + ' (' + minutes + ' minutes)';
                 <?php endif; ?>
                 function toggleSidebar() {
                     const sidebar = document.getElementById('chapter-sidebar');
