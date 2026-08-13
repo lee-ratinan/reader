@@ -1,4 +1,8 @@
-## 「 Special Chapter 1. That Massacre in My Memory 」
+## 「 Special Chapter 1. A Study in Slaughterfest 」
+
+### SPECIAL CHAPTER ONE
+
+#### A Study in Slaughterfest
 
 แจ็ค:
 

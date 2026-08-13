@@ -1,5 +1,9 @@
 ## 「 15. We Are Not In Khlong Luang Anymore 」
 
+### CHAPTER FIFTEEN
+
+#### We Are Not In Khlong Luang Anymore
+
 ⚠️ คำเตือน: ตอนนี้มีเนื้อหาเกี่ยวกับ **ความคิดฆ่าตัวตาย**, **การใช้ศาสนาในการกดขี่ข่มเหงผู้อื่น**
 
 ตั้ม:

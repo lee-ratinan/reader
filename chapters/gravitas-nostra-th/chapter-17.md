@@ -1,5 +1,9 @@
 ## 「 17. The Phantom of Buangkok Street 」
 
+### CHAPTER SEVENTEEN
+
+#### The Phantom of Buangkok Street
+
 ⚠️ คำเตือน: ตอนนี้มีเนื้อหาเกี่ยวกับ **การทำร้ายตัวเอง**
 
 บวงกก, สิงคโปร์

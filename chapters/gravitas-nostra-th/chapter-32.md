@@ -1,5 +1,9 @@
 ## 「 32. Brand-New Day 」
 
+### CHAPTER THIRTY-TWO
+
+#### Brand-New Day
+
 เคฟ:
 
 ปิดเทอม

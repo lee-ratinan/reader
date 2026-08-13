@@ -1,6 +1,8 @@
-# 「 PART TWO 」
-
 ## 「 33. Shinjuku’s Sun 」
+
+### CHAPTER THIRTY-THREE
+
+#### Shinjuku’s Sun
 
 กันต์
 

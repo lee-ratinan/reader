@@ -1,5 +1,9 @@
 ## 「 21. The Trio’s Trip 」
 
+### CHAPTER TWENTY-ONE
+
+#### The Trio’s Trip
+
 ⚠️ NC
 
 ชุน:

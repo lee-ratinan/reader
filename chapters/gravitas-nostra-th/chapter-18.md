@@ -1,5 +1,9 @@
 ## 「 18. Mischief Managed 」
 
+### CHAPTER EIGHTEEN
+
+#### Mischief Managed
+
 ⚠️ คำเตือน: ตอนนี้มีเนื้อหาเกี่ยวกับ **การเหยียดเชื้อชาติ/วัฒนธรรม**
 
 เคฟ:

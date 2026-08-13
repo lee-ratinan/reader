@@ -1,5 +1,9 @@
 ## 「 13. The Deadly Delusion 」
 
+### CHAPTER THIRTEEN
+
+#### The Deadly Delusion
+
 ⚠️ คำเตือน: ตอนนี้มีเนื้อหาเกี่ยวกับ **การล่วงละเมิดทางเพศ**
 
 ธัชชัย:

@@ -1,5 +1,9 @@
 ## 「 11. Famous Face, Familiar Foe 」
 
+### CHAPTER ELEVEN
+
+### Famous Face, Familiar Foe
+
 ปทุมธานี, ประเทศไทย
 
 กันต์:

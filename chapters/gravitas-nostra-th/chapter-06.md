@@ -1,8 +1,8 @@
-## 「 6. The Little Lament 」
+## 「 6. The Little’s Lament 」
 
 ### CHAPTER SIX
 
-#### The Little Lament
+#### The Little’s Lament
 
 ปทุมธานี, ประเทศไทย
 

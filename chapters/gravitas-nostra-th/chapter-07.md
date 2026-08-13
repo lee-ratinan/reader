@@ -1,5 +1,9 @@
 ## 「 7. The Wounding Words 」
 
+### CHAPTER SEVEN
+
+#### The Wounding Words
+
 ⚠️ คำเตือน: ตอนนี้มีเนื้อหาเกี่ยวกับ **แพนิก แอทแท็ก**
 
 ชุน:

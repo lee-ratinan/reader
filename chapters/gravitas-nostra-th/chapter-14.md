@@ -1,5 +1,10 @@
 ## 「 14. Shoulder for the Sorrower 」
-### มีไหล่เอาไว้ให้ซบ
+
+### CHAPTER FOURTEEN
+
+#### Shoulder for the Sorrower
+
+> มีไหล่เอาไว้ให้ซบ
 
 ชุน:
 

@@ -1,5 +1,9 @@
 ## 「 22. Patong, Paradise, Phi Phi, and Promises 」
 
+### CHAPTER TWENTY-TWO
+
+#### Patong, Paradise, Phi Phi, and Promises
+
 ภูเก็ต, ประเทศไทย
 
 กันต์:
