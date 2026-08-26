@@ -114,6 +114,7 @@ if ($book_id) {
         body.reader-mode-active #after-article,
         body.reader-mode-active #reader-mode-on {display: none;}
         body.reader-mode-active #reader-mode-off {display: inline-block;}
+        img.portrait {max-width:60vw;width:200px;}
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="marked.min.js"></script>
@@ -241,7 +242,7 @@ if ($book_id) {
     </header>
         <?php
         $target_file = "chapters/" . $book_id . "/" . basename($chapter_file);
-        if (file_exists($target_file)) {
+        if (file_exists($target_file) && 'characters.php' != $chapter_file) {
             $markdown_content = file_get_contents($target_file);
             echo '<script type="text/template" id="markdown-source">' . $markdown_content . '</script>';
         } else {
@@ -294,7 +295,6 @@ if ($book_id) {
                         } else {
                             $prev_chapter = $chapters[$i - 1]['file'];
                         }
-
                         // Next link
                         if ($i < count($chapters) - 1) {
                             $next_chapter = $chapters[$i + 1]['file'];
@@ -335,6 +335,11 @@ if ($book_id) {
                         <?php endforeach; ?>
                     </ul>
                 </aside>
+                <?php if ('characters.php' == $chapter_file): ?>
+                <div class="flex-grow bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-4 md:p-6 rounded-xl shadow-sm">
+                    <?php include 'chapters/' . $book_id . '/characters.php'; ?>
+                </div>
+                <?php else: ?>
                 <!-- Markdown Content Container -->
                 <div class="flex-grow bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-4 md:p-6 rounded-xl shadow-sm">
                     <div id="before-article">
@@ -374,11 +379,14 @@ if ($book_id) {
                         </p>
                     </div>
                 </div>
+                <?php endif; ?>
             </div>
             <script>
+                <?php if ('characters.php' != $chapter_file): ?>
                 const rawMarkdown = document.getElementById('markdown-source').innerHTML;
                 let parsedMarkdown = marked.parse(rawMarkdown);
                 document.getElementById('content-container').innerHTML = parsedMarkdown;
+                <?php endif; ?>
                 <?php if (str_contains($chapter_file, 'chapter')) : ?>
                 const seg = new Intl.Segmenter('th', {granularity: 'word'});
                 const parser = new DOMParser();

@@ -1,4 +1,4 @@
-<img style="width:200px" alt="Li Rongqin" src="illustrations/author-li-rongqin.jpg" />
+<img class="portrait" alt="Li Rongqin" src="illustrations/author-li-rongqin.webp" />
 
 <br/>
 
