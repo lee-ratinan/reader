@@ -314,7 +314,7 @@ if ($book_id) {
                     <div class="flex justify-between items-center mt-10 mb-3">
                         <h3 class="font-bold">Table of Contents</h3>
                     </div>
-                    <ul class="space-y-2 overflow-y-auto max-h-[calc(100vh-140px)]">
+                    <ul class="space-y-2 overflow-y-auto max-h-[calc(100vh-140px)] pb-[50px]">
                         <a href="index.php?book=<?= $book_id ?>&chapter=cover.md" class="block px-3 py-2 rounded-lg text-sm font-medium transition <?= $chapter_file === 'cover.md' ? 'bg-blue-600 text-white' : 'hover:bg-gray-100 dark:hover:bg-gray-800' ?>">Cover</a>
                         <?php foreach ($chapters as $ch):
                             $filepath = "chapters/" . $book_id . "/" . $ch['file'];
@@ -333,10 +333,13 @@ if ($book_id) {
                                 <?php endif; ?>
                             </li>
                         <?php endforeach; ?>
+                        <li>&nbsp;</li>
+                        <li class="text-center">~~ the end ~~</li>
+                        <li>&nbsp;</li>
                     </ul>
                 </aside>
                 <?php if ('characters.php' == $chapter_file): ?>
-                <div class="flex-grow bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-4 md:p-6 rounded-xl shadow-sm">
+                <div class="w-full flex-grow bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-4 md:p-6 rounded-xl shadow-sm">
                     <?php include 'chapters/' . $book_id . '/characters.php'; ?>
                 </div>
                 <?php else: ?>
@@ -408,12 +411,16 @@ if ($book_id) {
 
                 const btnOn = document.getElementById('reader-mode-on');
                 const btnOff = document.getElementById('reader-mode-off');
-                btnOn.addEventListener('click', () => {
-                    document.body.classList.add('reader-mode-active');
-                });
-                btnOff.addEventListener('click', () => {
-                    document.body.classList.remove('reader-mode-active');
-                });
+                if (btnOn) {
+                    btnOn.addEventListener('click', () => {
+                        document.body.classList.add('reader-mode-active');
+                    });
+                }
+                if (btnOff) {
+                    btnOff.addEventListener('click', () => {
+                        document.body.classList.remove('reader-mode-active');
+                    });
+                }
             </script>
         <?php endif; ?>
     </main>

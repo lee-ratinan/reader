@@ -2,7 +2,6 @@
 <script src="https://cdn.datatables.net/3.0.2/js/dataTables.min.js"></script>
 <style>
     table img { max-width: 100px; }
-    .table-responsive { max-width: 100%; overflow-x: scroll; }
 </style>
 <h2>แนะนำตัวละคร</h2>
 <?php
@@ -625,8 +624,8 @@ function country_to_name(string $codes = ''): string
     return implode('<br/>', $names);
 }
 ?>
-<div class="table-responsive">
-<table class="table border-collapse table-auto datatables w-full" id="characters">
+<div class="w-full overflow-x-auto shadow-md sm:rounded-lg">
+<table class="w-full min-w-[600px] text-left text-sm" id="characters">
     <thead>
     <tr>
         <th>Image</th>
@@ -659,7 +658,5 @@ function country_to_name(string $codes = ''): string
 </table>
 </div>
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        let tbl = new DataTable('#characters');
-    });
+    new DataTable('#characters');
 </script>
