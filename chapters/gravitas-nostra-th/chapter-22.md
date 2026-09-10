@@ -190,4 +190,4 @@
 
 “ร้องเพลงจีบกันอยู่หรอพี่?”
 
-[//]: # (<div style="text-align:center"><img alt="Phuket" src="http://127.0.0.1:8888/novel/md-files/images/location-phuket.jpg" style="width:80%;" /></div>)
+<div style="text-align:center"><img alt="Phuket" src="illustrations/location-phuket.webp" style="width:80%;" /></div>

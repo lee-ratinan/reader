@@ -642,7 +642,7 @@ function country_to_name(string $codes = ''): string
     <?php foreach($characters as $i => $character): ?>
     <tr>
         <td data-sort="<?= $i ?>"><?= (!empty($character[0]) ? '<img alt="'. @$character[1] .'" src="illustrations/' . @$character[0] . '" />' : '') ?></td>
-        <td data-search="<?= @$character[8] . ' ' . $character[1] ?>">
+        <td data-sort="<?= @$character[1] ?>" data-search="<?= @$character[8] . ' ' . $character[1] ?>">
             <small><code>[C<?= str_pad($i+1, 3, '0', STR_PAD_LEFT) ?>]</code></small><br/>
             <?= str_replace('/', '<br/>', $character[1]??'') ?>
         </td>

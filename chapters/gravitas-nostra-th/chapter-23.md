@@ -297,4 +297,4 @@
 
 คนรอบข้างผมหันมาปรบมือให้ กลายเป็นว่าผมเป็นฮีโร่ไปแล้ว น่าภูมิใจเหมือนกันเนอะ ผมหันไปยิ้มให้กับทุกคน แถมผู้จัดการร้านยังมาบอกว่าเดี๋ยวมื้อนี้กินฟรีไปเลย เฮ้ย เกือบหมื่นเลยนะนั่นน่ะ ฟรีเลยหรอ???
 
-[//]: # (<div style="text-align:center"><img alt="Map" src="http://127.0.0.1:8888/novel/md-files/images/location-map.jpg" style="width:80%;" /></div>)
+<div style="text-align:center"><img alt="Map" src="illustrations/location-map.webp" style="width:80%;" /></div>

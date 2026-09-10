@@ -330,4 +330,4 @@
 
 “มึงดูสิ ตึกมันยังอยู่คู่กันได้เลย... กูก็อยู่คู่กับมึงได้นะ มึงก็ไม่ต้องไล่กูไปไหนนะ”
 
-[//]: # (<div style="text-align:center"><img alt="Malaysia" src="http://127.0.0.1:8888/novel/md-files/images/location-malaysia.jpg" style="width:80%;" /></div>)
+<div style="text-align:center"><img alt="Malaysia" src="illustrations/location-malaysia.webp" style="width:80%;" /></div>
