@@ -4,7 +4,7 @@
     "title": "Gravitas Nostra พื้นที่พักใจ กับใครสักคน",
     "genre": "Social Realism, Boy’s Love, Coming of Age",
     "language": "ไทย",
-    "language_code": "th",
+    "language_code": "th-TH",
     "author": "Li Rongqin",
     "cover_image": "chapters/gravitas-nostra-th/cover.jpg",
     "chapters_file": "chapters/gravitas-nostra-th/chapters.json"
@@ -14,7 +14,7 @@
     "title": "Gravitas Nostra | The Gravity Between Us",
     "genre": "Social Realism, Boy’s Love, Coming of Age",
     "language": "English",
-    "language_code": "en",
+    "language_code": "en-US",
     "author": "Li Rongqin",
     "cover_image": "chapters/gravitas-nostra-en/cover.jpg",
     "chapters_file": "chapters/gravitas-nostra-en/chapters.json"

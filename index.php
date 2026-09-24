@@ -57,7 +57,7 @@ if ($book_id) {
 }
 ?>
 <!DOCTYPE html>
-<html lang="<?= $current_book['language_code'] ?? 'en' ?>" class="h-full">
+<html lang="<?= $current_book['language_code'] ?? 'en-US' ?>" class="h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
