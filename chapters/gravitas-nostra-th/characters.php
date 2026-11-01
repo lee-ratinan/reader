@@ -30,8 +30,8 @@ $characters = [
     ],
     [
         'character-tan-chun.webp',
-        'Tan, Chun (Chén Jùn Wěi) / ชุน ตัน / 陳俊偉',
-        'Aussie Boy / ตันจุ้นเหว่ย',
+        'Tan, Chun (Chén Jùn Wěi) / ชุน ตัน / ตันจุ้นเหว่ย / 陳俊偉',
+        'ออสซี่บอย (Aussie Boy)',
         '英徳 / Clifton’24 / SBS-SU’28',
         'M',
         'AU',
@@ -96,7 +96,7 @@ $characters = [
     [
         'character-chanawong-thatchai.webp',
         'Chánáwong, Thátchai / ธัชชัย ชนะวงศ์',
-        '',
+        'ตัวเล็ก (Shorty)',
         'Khorat / Bangkok / SICT’27 - SICT’28',
         'M',
         'TH',
@@ -603,7 +603,7 @@ function country_to_name(string $codes = ''): string
         'AU' => 'Australia',
         'DE' => 'German',
         'GB' => 'British',
-        'ID' => 'Indonesiam',
+        'ID' => 'Indonesian',
         'IN' => 'Indian',
         'JP' => 'Japanese',
         'KR' => 'South Korean',
@@ -660,3 +660,27 @@ function country_to_name(string $codes = ''): string
 <script>
     new DataTable('#characters');
 </script>
+<div class="w-full">
+    <?php /* foreach ($characters as $row) {
+        if (!empty($row[1])) {
+            echo '- Name: '. $row[1];
+        }
+        if (!empty($row[2])) {
+            echo ', alias(es)/nickname(s): ' .  $row[2];
+        }
+        echo '<br/>';
+        if (!empty($row[4])) {
+            echo 'Gender: ' .  $row[4];
+        }
+        if (!empty($row[5])) {
+            echo ', nationality: ' .  str_replace('-', ', ', $row[5]);
+        }
+        if (!empty($row[6])) {
+            echo ', ethnicity: ' .  str_replace('-', ', ', $row[6]);
+        }
+        if (!empty($row[7])) {
+            echo ', birth: ' .  $row[7];
+        }
+        echo '<br/>';
+    } */ ?>
+</div>
