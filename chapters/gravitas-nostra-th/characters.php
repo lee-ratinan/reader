@@ -195,7 +195,7 @@ $characters = [
         'Baker, Cindy / ซินดี้ เบเกอร์',
         '',
         'Clifton’24',
-        'M',
+        'F',
         'AU',
         'ZH',
         '2006',
