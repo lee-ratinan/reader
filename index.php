@@ -259,7 +259,7 @@ if ($book_id) {
                 <?php foreach ($books as $book): ?>
                     <a href="index.php?book=<?= $book['id'] ?>"
                        class="group bg-white dark:bg-gray-800 rounded-xl overflow-hidden border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md transition">
-                        <div class="aspect-[3/4] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                        <div class="aspect-[2/3] overflow-hidden bg-gray-200 dark:bg-gray-700">
                             <img src="<?= htmlspecialchars($book['cover_image']) ?>"
                                  alt="<?= htmlspecialchars($book['title']) ?>"
                                  class="w-full h-full object-cover group-hover:scale-105 transition duration-300">

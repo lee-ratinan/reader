@@ -5,8 +5,8 @@
     "genre": "Social Realism, Boy’s Love, Coming of Age",
     "language": "ไทย",
     "language_code": "th-TH",
-    "author": "Li Rongqin",
-    "cover_image": "chapters/gravitas-nostra-th/cover.jpg",
+    "author": "ลี้ หย่งคิม",
+    "cover_image": "chapters/gravitas-nostra-th/cover.webp",
     "chapters_file": "chapters/gravitas-nostra-th/chapters.json"
   },
   {
@@ -16,7 +16,27 @@
     "language": "English",
     "language_code": "en-US",
     "author": "Li Rongqin",
-    "cover_image": "chapters/gravitas-nostra-en/cover.jpg",
+    "cover_image": "chapters/gravitas-nostra-en/cover.webp",
     "chapters_file": "chapters/gravitas-nostra-en/chapters.json"
+  },
+  {
+    "id": "gravitas-nostra-zh",
+    "title": "在重力深處相擁 | Gravitas Nostra",
+    "genre": "Social Realism, Boy’s Love, Coming of Age",
+    "language": "國語",
+    "language_code": "zh-TW",
+    "author": "李榮欽",
+    "cover_image": "chapters/gravitas-nostra-zh/cover.webp",
+    "chapters_file": "chapters/gravitas-nostra-zh/chapters.json"
+  },
+  {
+    "id": "gravitas-nostra-ja",
+    "title": "僕らの重力・Gravitas Nostra",
+    "genre": "Social Realism, Boy’s Love, Coming of Age",
+    "language": "日本語",
+    "language_code": "ja-JP",
+    "author": "李栄欽",
+    "cover_image": "chapters/gravitas-nostra-ja/cover.webp",
+    "chapters_file": "chapters/gravitas-nostra-ja/chapters.json"
   }
 ]

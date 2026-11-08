@@ -1,1 +1,1 @@
-<div class="center"><img alt="Cover" src="chapters/gravitas-nostra-th/cover.jpg" style="width:80%;" /></div>
+<div class="center"><img alt="Cover" src="chapters/gravitas-nostra-th/cover.webp" style="width:80%;" /></div>
