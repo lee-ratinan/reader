@@ -9,9 +9,9 @@ https://lee.ratinan.com</p>
 <div class="center">
 
 ### Gravitas Nostra: The Gravity Between Us
-### พื้นที่พักใจกับใครสักคน
+### พื้นที่พักใจ กับใครสักคน
 
-#### by Li Rongqin
+#### โดย ลี้หย่งคิม
 
 <br/>
 <br/>
@@ -37,7 +37,7 @@ https://lee.ratinan.com</p>
 
 ### Gravitas Nostra (The Gravity Between Us)
 
-**พื้นที่พักใจกับใครสักคน**
+**พื้นที่พักใจ กับใครสักคน**
 
 <br/>
 
@@ -49,7 +49,7 @@ https://lee.ratinan.com</p>
 
 <br/>
 
-โดย Li Rongqin
+โดย ลี้หย่งคิม
 
 <br/>
 
@@ -59,6 +59,6 @@ https://lee.ratinan.com</p>
 
 <br/>
 
-สร้างสรรค์และจัดทำโดย: Li Rongqin<br/>
-ออกแบบปกและภาพประกอบ: Li Rongqin (ร่วมกับ AI Generation)<br/>
-พิสูจน์อักษรและ Glossary: Li Rongqin
+สร้างสรรค์และจัดทำโดย: ลี้หย่งคิม<br/>
+ออกแบบปกและภาพประกอบ: ลี้หย่งคิม (ร่วมกับ AI Generation)<br/>
+พิสูจน์อักษรและ Glossary: ลี้หย่งคิม
