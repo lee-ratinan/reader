@@ -7,48 +7,40 @@
 <?php
 $characters = [
     [
-        'author-li-rongqin.webp',
-        'Li Rongqin / หลี่หรงชิน / 李榮欽',
-        '',
-        '',
-        'M',
-        '',
-        '',
-        '',
-        'author'
-    ],
-    [
         'character-chen-kevin.webp',
-        'Chen, Kevin (Kev, Chén Guó Wěi) / เควิน (เคฟ) เฉิน กั๋วเหว่ย / 陳國偉',
+        'Chen, Kevin (Kev, Chen Guo Wei) / เควิน (เคฟ) เฉิน กั๋วเหว่ย / 陳國偉',
         'ไอ้หมาน้อย (Little Pup) / โคคุอิ (こくい, Kokui)',
         '英徳 / SLIS / SLH’23 / SICT’27 / DCC-SU’28',
         'M',
         'TW',
         'TH-TW',
         '2005-11-15',
-        'li-kev li-thatchai main-character'
+        'li-kev li-thatchai main-character',
+        'Chén Guó Wěi'
     ],
     [
         'character-tan-chun.webp',
-        'Tan, Chun (Chén Jùn Wěi) / ชุน ตัน / ตันจุ้นเหว่ย / 陳俊偉',
+        'Tan, Chun / ชุน ตัน / ตันจุ้นเหว่ย / 陳俊偉',
         'ออสซี่บอย (Aussie Boy)',
         '英徳 / Clifton’24 / SBS-SU’28',
         'M',
         'AU',
         'TH-SG',
         '2005-10-05',
-        'li-kev li-chun main-character'
+        'li-kev li-chun main-character',
+        'Chén/Tan Jùn Wěi'
     ],
     [
         'character-tangcharoenkit-kan.webp',
-        'Tângchàrōenkìt, Kan / กันต์ ตั้งเจริญกิจ',
+        'Tangjaroenkit, Kan / กันต์ ตั้งเจริญกิจ',
         '',
         'SLIS / SLH’24 / DCC-SU’28',
         'M',
         'TH',
         'TH',
         '2006',
-        'li-kan main-character'
+        'li-kan main-character',
+        'Tângjàrōenkìt, Kan'
     ],
     [
         'character-zhang-weixiang.webp',
@@ -58,7 +50,9 @@ $characters = [
         'M',
         'TW',
         'TW',
-        '2005'
+        '2005',
+        '',
+        'Zhāng Wěi Xiáng'
     ],
     [
         'character-muller-jane.webp',
@@ -73,47 +67,51 @@ $characters = [
     ],
     [
         'character-phunkit-anachai.webp',
-        'Phūnkìt, Ànanchai (Ôen) / อนันต์ชัย (เอิ้น) พูลกิจ',
+        'Phoonkit, Ananchai (Ern) / อนันต์ชัย (เอิ้น) พูลกิจ',
         '',
         'SLH’23 / SICT’27',
         'M',
         'TH',
         'TH',
         '2005',
-        'li-tam supporting'
+        'li-tam supporting',
+        'Phūnkìt, Ànanchai (Ôen)'
     ],
     [
         'character-sawangwit-thanat.webp',
-        'Sàwàngwít, Thánát (Tâm) / ธนัท (ตั้ม) สว่างวิทย์',
+        'Sawangwit, Thanat (Tâm) / ธนัท (ตั้ม) สว่างวิทย์',
         '',
         'SLH’23 / SICT’27',
         'M',
         'TH',
         'TH',
         '2005',
-        'li-tam supporting'
+        'li-tam supporting',
+        'Sàwàngwít, Thánát (Tâm)'
     ],
     [
         'character-chanawong-thatchai.webp',
-        'Chánáwong, Thátchai / ธัชชัย ชนะวงศ์',
+        'Chanawong, Thatchai / ธัชชัย ชนะวงศ์',
         'ตัวเล็ก (Shorty)',
         'Khorat / Bangkok / SICT’27 - SICT’28',
         'M',
         'TH',
         'TH',
         '2005',
-        'li-thatchai li-jack'
+        'li-thatchai li-jack',
+        'Chánáwong, Thátchai'
     ],
     [
         'character-sakdaphithak-kittiphum.webp',
-        'Sàkdāphíthák, Kìttìphūm (Jack) / กิตติภูมิ (แจ็ค) ศักดาพิทักษ์',
+        'Sakdapitak, Kittipoom (Jack) / กิตติภูมิ (แจ็ค) ศักดาพิทักษ์',
         '',
         'Khorat / Bangkok / SICT’27',
         'M',
         'TH',
         'TH',
         '2005',
-        'li-jack'
+        'li-jack',
+        'Sàkdāphíthák, Kìttìphūm'
     ],
     [
         'character-gonzalez-jose.webp',
@@ -149,36 +147,39 @@ $characters = [
     ],
     [
         'character-intharasen-wasan.webp',
-        'Inthárásěn, Wásǎn (Sǎn) / วสันต์ (สัน) อินทรเสน',
+        'Intharasane, Wasan (San) / วสันต์ (สัน) อินทรเสน',
         '',
         'SLH’24 / 東京大学’28',
         'M',
         'TH',
         'TH',
         '2006',
-        'li-kan main-character'
+        'li-kan main-character',
+        'Inthárásěn, Wásǎn (Sǎn)'
     ],
     [
         'character-loetwiriya-thiraphon.webp',
-        'Lôetwíríyá, Thīráphon (Thī) / ธีรพล (ธีร์) เลิศวิริยะ',
+        'Lertwiriya, Theerapon (Thee) / ธีรพล (ธีร์) เลิศวิริยะ',
         '',
         'SLH’24 / SICT’28',
         'M',
         'TH',
         'TH',
         '2006',
-        'li-thi supporting'
+        'li-thi supporting',
+        'Lôetwíríyá, Thīráphon (Thī)'
     ],
     [
         'character-jantharawirot-kasidit.webp',
-        'Jantháráwírôt, Kàsìdìt (Kâo) / กษิดิศ (เก้า) จันทรวิโรจน์',
+        'Chantarawirote, Kasidit (Kao) / กษิดิศ (เก้า) จันทรวิโรจน์',
         '',
         'SLH’24 / SICT’28',
         'M',
         'TH',
         'TH',
         '2006',
-        'li-thi supporting'
+        'li-thi supporting',
+        'Jantháráwírôt, Kàsìdìt (Kâo)'
     ],
     [
         '',
@@ -233,63 +234,75 @@ $characters = [
     ],
     [
         '',
-        'Nátthàwút (Wút) / ณัฐวุฒิ (วุฒิ)',
+        'Nattawut (Wut) / ณัฐวุฒิ (วุฒิ)',
         '',
         'SLH’23',
         'M',
         'TH',
         'TH',
-        '2005'
+        '2005',
+        '',
+        'Nátthàwút (Wút)'
     ],
     [
         '',
-        'Jètsàdā (Jèt) / เจษฎา (เจษ)',
+        'Jetsada (Jate) / เจษฎา (เจษ)',
         '',
         'SLH’23',
         'M',
         'TH',
         'TH',
-        '2005'
+        '2005',
+        '',
+        'Jètsàdā (Jèt)'
     ],
     [
         '',
-        'Tǐ / ตี๋',
+        'Tee / ตี๋',
         '',
         'SLH’23',
         'M',
         'TH',
         'TH',
-        '2005'
+        '2005',
+        '',
+        'Tǐ'
     ],
     [
         '',
-        'Fīm / ฟิล์ม',
+        'Film / ฟิล์ม',
         '',
         'SLH’23',
         'M',
         'TH',
         'TH',
-        '2005'
+        '2005',
+        '',
+        'Fīm'
     ],
     [
         '',
-        'Nûn / นุ่น',
+        'Nune / นุ่น',
         '',
         'SLH’23',
         'F',
         'TH',
         'TH',
-        '2005'
+        '2005',
+        '',
+        'Nûn'
     ],
     [
         '',
-        'Látdā / ลัดดา',
+        'Ladda / ลัดดา',
         '',
         'SLH’24',
         'F',
         'TH',
         'TH',
-        '2006'
+        '2006',
+        '',
+        'Látdā'
     ],
     [
         '',
@@ -303,13 +316,15 @@ $characters = [
     ],
     [
         '',
-        'Phīm / ภีม',
+        'Peem / ภีม',
         '',
         'SICT’27',
         'M',
         'TH',
         'TH',
-        ''
+        '',
+        '',
+        'Phīm'
     ],
     [
         '',
@@ -493,13 +508,15 @@ $characters = [
     ],
     [
         '',
-        'Xí Lùyān / สีลู่เยียน / 习露嫣',
+        'Xi Luyan / สีลู่เยียน / 习露嫣',
         '',
         'SU’28',
         'F',
         'ZH',
         'ZH',
-        '2006'
+        '2006',
+        '',
+        'Xí Lùyān'
     ],
     [
         '',
@@ -573,22 +590,22 @@ $characters = [
         '',
         'psychologist'
     ],
-    ['', 'Tângchàrōenkìt, Tàwan / ตะวัน ตั้งเจริญกิจ', '', '', 'M', 'TH', 'TH', '', 'family'],
-    ['', 'Masha Chén / มาช่า เฉิน', '', '', 'F', 'TW', 'TW-GB', '', 'family'],
-    ['', 'Kānsǒmbàt, Sàkdā / ศักดา กาญจน์สมบัติ', '', '', 'M', 'TH', 'TH', '', 'family'],
+    ['', 'Tangjaroenkit, Tawan / ตะวัน ตั้งเจริญกิจ', '', '', 'M', 'TH', 'TH', '', 'family', 'Tângjàrōenkìt, Tàwan'],
+    ['', 'Masha Chen / มาช่า เฉิน', '', '', 'F', 'TW', 'TW-GB', '', 'family', 'Masha Chén'],
+    ['', 'Kansombat, Sakda / ศักดา กาญจน์สมบัติ', '', '', 'M', 'TH', 'TH', '', 'family', 'Kānsǒmbàt, Sàkdā'],
     ['', 'Lily Tan / ลิลี่ ตัน', '', '', 'F', 'SG', 'SG', '', 'family'],
-    ['', 'Tângchàrōenkìt, Àkkhánī / อัคนี ตั้งเจริญกิจ', '', '', 'M', 'TH', 'TH', '', 'family'],
-    ['', 'Tângchàrōenkìt, Yādā / ญาดา ตั้งเจริญกิจ', '', '', 'F', 'TH', 'TH', '', 'family'],
+    ['', 'Tangjaroenkit, Akkanee / อัคนี ตั้งเจริญกิจ', '', '', 'M', 'TH', 'TH', '', 'family', 'Tângchàrōenkìt, Àkkhánī'],
+    ['', 'Tangjaroenkit, Yada / ญาดา ตั้งเจริญกิจ', '', '', 'F', 'TH', 'TH', '', 'family', 'Tângchàrōenkìt, Yādā'],
     ['', 'Zhang, Mrs (Weixiang’s Mother) / จาง', '', '', 'F', 'TW', 'TW', '', 'family'],
     ['', 'Clarke, Jasmine (née Tan) / แจสมิน คลาร์ก (ตัน)', '', '', 'F', 'AU', 'SG', '', 'family'],
     ['', 'Clarke, Max / แม็กซ์ คลาร์ก', '', '', 'M', 'AU', 'AU', '', 'family'],
     ['', 'Clarke, Joanna / โจแอนนา คลาร์ก', '', '', 'F', 'AU', 'AU-SG', '', 'family'],
     ['', 'Tan, Mrs (grandmother) / ตัน', '', '', 'F', 'SG', 'SG', '', 'family'],
     ['', 'Tan, Ben / เบ็น ตัน', '', '', 'M', 'SG', 'SG', '', 'family'],
-    ['', 'Chánáwong, Mr (big military officer) / ชนะวงศ์', '', '', 'M', 'TH', 'TH', '', 'family'],
-    ['', 'Chánáwong, Mrs (passed away) / ชนะวงศ์', '', '', 'F', 'TH', 'TH', '', 'family'],
-    ['', 'Sàkdāphíthák, Mr (passed away) / ศักดาพิทักษ์', '', '', 'M', 'TH', 'TH', '', 'family'],
-    ['', 'Sàkdāphíthák, Ms / ศักดาพิทักษ์', '', '', 'F', 'TH', 'TH', '', 'family'],
+    ['', 'Chanawong, Mr (big military officer) / ชนะวงศ์', '', '', 'M', 'TH', 'TH', '', 'family', 'Chánáwong'],
+    ['', 'Chanawong, Mrs (passed away) / ชนะวงศ์', '', '', 'F', 'TH', 'TH', '', 'family', 'Chánáwong'],
+    ['', 'Sakdapitak, Mr (passed away) / ศักดาพิทักษ์', '', '', 'M', 'TH', 'TH', '', 'family', 'Sàkdāphíthák'],
+    ['', 'Sakdapitak, Ms / ศักดาพิทักษ์', '', '', 'F', 'TH', 'TH', '', 'family', 'Sàkdāphíthák'],
     ['', 'Teng, Mr / เทง', '', '', 'M', 'SG', 'SG', '', 'family'],
     ['', 'Teng, Mrs / เทง', '', '', 'F', 'SG', 'SG', '', 'family'],
     ['', 'Teng, Debra / เด็บบรา เทง', '', '', 'F', 'SG', 'SG', '', 'family'],
@@ -631,6 +648,7 @@ function country_to_name(string $codes = ''): string
         <th>Image</th>
         <th>Names</th>
         <th>Aliases</th>
+        <th>Pronunciation</th>
         <th>Affiliations</th>
         <th>G.</th>
         <th>Nat.</th>
@@ -647,6 +665,7 @@ function country_to_name(string $codes = ''): string
             <?= str_replace('/', '<br/>', $character[1]??'') ?>
         </td>
         <td><?= str_replace('/', '<br/>', $character[2]??'') ?></td>
+        <td><?= @$character[9] ?></td>
         <td><?= str_replace('/', '<br/>', $character[3]??'') ?></td>
         <td><?= @$character[4] ?></td>
         <td><?= country_to_name(@$character[5]) ?></td>
@@ -667,6 +686,9 @@ function country_to_name(string $codes = ''): string
         }
         if (!empty($row[2])) {
             echo ', alias(es)/nickname(s): ' .  $row[2];
+        }
+        if (!empty($row[9])) {
+            echo ' - pronounced: ' . $row[9];
         }
         echo '<br/>';
         if (!empty($row[4])) {
