@@ -292,6 +292,10 @@
     "file": "characters.php"
   },
   {
+    "name": "แนะนำสถานที่",
+    "file": "locations.php"
+  },
+  {
     "name": "ผู้เขียน",
     "file": "author.md"
   }

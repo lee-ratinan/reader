@@ -242,7 +242,7 @@ if ($book_id) {
     </header>
         <?php
         $target_file = "chapters/" . $book_id . "/" . basename($chapter_file);
-        if (file_exists($target_file) && 'characters.php' != $chapter_file) {
+        if (file_exists($target_file) && !in_array($chapter_file, ['characters.php', 'locations.php'])) {
             $markdown_content = file_get_contents($target_file);
             echo '<script type="text/template" id="markdown-source">' . $markdown_content . '</script>';
         } else {
@@ -338,9 +338,9 @@ if ($book_id) {
                         <li>&nbsp;</li>
                     </ul>
                 </aside>
-                <?php if ('characters.php' == $chapter_file): ?>
+                <?php if (in_array($chapter_file, ['characters.php', 'locations.php'])) : ?>
                 <div class="w-full flex-grow bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-4 md:p-6 rounded-xl shadow-sm">
-                    <?php include 'chapters/' . $book_id . '/characters.php'; ?>
+                    <?php include 'chapters/' . $book_id . '/' . $chapter_file; ?>
                 </div>
                 <?php else: ?>
                 <!-- Markdown Content Container -->
@@ -385,7 +385,7 @@ if ($book_id) {
                 <?php endif; ?>
             </div>
             <script>
-                <?php if ('characters.php' != $chapter_file): ?>
+                <?php if (!in_array($chapter_file, ['characters.php', 'locations.php'])): ?>
                 const rawMarkdown = document.getElementById('markdown-source').innerHTML;
                 let parsedMarkdown = marked.parse(rawMarkdown);
                 document.getElementById('content-container').innerHTML = parsedMarkdown;
