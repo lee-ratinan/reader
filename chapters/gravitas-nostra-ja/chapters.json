@@ -1,18 +1,18 @@
 [
   {
-    "name": "Copyright",
+    "name": "著作権",
     "file": "copyright.md"
   },
   {
-    "name": "Content Warning",
+    "name": "コンテンツに関する警告",
     "file": "content-warning.md"
   },
   {
-    "name": "On Winnie-the-Pooh",
+    "name": "『くまのプーさん』の世界では……",
     "file": "winnie-the-pooh.md"
   },
   {
-    "name": "Dedication",
+    "name": "献身",
     "file": "dedication.md"
   },
   {
@@ -40,7 +40,7 @@
     "file": "chapter-05.md"
   },
   {
-    "name": "Chapter 6: The Little Lament",
+    "name": "Chapter 6: The Little’s Lament",
     "file": "chapter-06.md"
   },
   {
@@ -64,7 +64,7 @@
     "file": "chapter-11.md"
   },
   {
-    "name": "Chapter 12: Dead Diary, Dear Departed",
+    "name": "Chapter 12: His Dead Diary",
     "file": "chapter-12.md"
   },
   {
@@ -286,5 +286,17 @@
   {
     "name": "Chapter 64: ",
     "file": "chapter-64.md"
+  },
+  {
+    "name": "登場人物紹介",
+    "file": "characters.php"
+  },
+  {
+    "name": "ロケーションの紹介",
+    "file": "locations.php"
+  },
+  {
+    "name": "作家",
+    "file": "author.md"
   }
 ]

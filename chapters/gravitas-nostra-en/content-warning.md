@@ -12,7 +12,7 @@ This novel contains content that may be distressing, including:
 
 **📌 Author’s Intent**:
 
-This work is not intended to romanticize violence or death. Rather, it aims to shed light on hidden realities and serve as a voice for those who have been so deeply oppressed that they have been left without the opportunity to speak for themselves.
+This work is **not intended to romanticize violence or death**. Rather, it aims to shed light on hidden realities and serve as a voice for those who have been so deeply oppressed that they have been left without the opportunity to speak for themselves.
 
 **💡 Additional Notes**:
 
