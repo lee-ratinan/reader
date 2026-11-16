@@ -1,0 +1,27 @@
+<img class="portrait" alt="Li Rongqin" src="illustrations/author-li-rongqin.webp" />
+
+<br/>
+
+**𐑤𐑰 𐑮𐑴𐑙𐑗𐑦𐑯**
+
+𐑚𐑹𐑯 𐑦𐑯 1989, 𐑚𐑨𐑙𐑒𐑪𐑒.
+
+𐑧𐑝𐑮𐑦 𐑦𐑥𐑴𐑖𐑩𐑯 𐑥𐑨𐑑𐑼𐑟, 𐑯 𐑯𐑳𐑯 𐑖𐑫𐑛 𐑚𐑰 𐑒𐑧𐑐𐑑 𐑤𐑪𐑒𐑑 𐑩𐑢𐑱.<br/>
+𐑘𐑧𐑑, 𐑲 𐑮𐑦𐑥𐑱𐑯 𐑒𐑩𐑯𐑝𐑦𐑯𐑕𐑑 𐑞𐑨𐑑 𐑢𐑰 𐑒𐑨𐑯𐑪𐑑 𐑑𐑮𐑵𐑤𐑦 𐑒𐑩𐑯𐑑𐑮𐑴𐑤 𐑣𐑬 𐑢𐑰 𐑓𐑰𐑤.
+
+𐑲 𐑣𐑨𐑝 𐑕𐑐𐑧𐑯𐑑 𐑩 𐑤𐑲𐑓𐑑𐑲𐑥 𐑛𐑰𐑒𐑴𐑛𐑦𐑙 𐑣𐑿𐑥𐑩𐑯 𐑚𐑦𐑣𐑱𐑝𐑘𐑼 𐑔𐑮𐑵 𐑪𐑚𐑟𐑼𐑝𐑱𐑖𐑩𐑯 𐑯 𐑕𐑦𐑯𐑔𐑩𐑕𐑦𐑕.<br/>
+𐑥𐑲 𐑮𐑲𐑑𐑦𐑙 𐑦𐑟 𐑩 𐑝𐑧𐑕𐑩𐑤 𐑓 𐑳𐑯𐑥𐑭𐑕𐑒𐑦𐑙 𐑞 𐑣𐑸𐑖 𐑮𐑦𐑨𐑤𐑦𐑑𐑦𐑟 𐑝 𐑦𐑜𐑟𐑦𐑕𐑑𐑩𐑯𐑕 𐑯 𐑻𐑡𐑦𐑙 𐑮𐑰𐑛𐑼𐑟<br/>
+𐑑 𐑮𐑧𐑒𐑩𐑜𐑯𐑲𐑟 𐑞 𐑜𐑮𐑨𐑝𐑦𐑑𐑦 𐑝 𐑮𐑾𐑤-𐑢𐑻𐑤𐑛 𐑦𐑖𐑵𐑟. 𐑥𐑲 𐑢𐑻𐑒 𐑦𐑒𐑕𐑐𐑤𐑹𐑟 𐑞 𐑚𐑬𐑯𐑛𐑮𐑦𐑟 𐑝 𐑕𐑲𐑒𐑲𐑩𐑑𐑮𐑦,<br/>
+𐑕𐑴𐑖𐑩𐑤 𐑩𐑐𐑮𐑧𐑖𐑩𐑯, 𐑯 𐑩 𐑓𐑹𐑥 𐑝 𐑤𐑳𐑝 𐑞𐑨𐑑 𐑛𐑦𐑥𐑭𐑯𐑛𐑟 ‘𐑳𐑯𐑛𐑼𐑕𐑑𐑨𐑯𐑛𐑦𐑙’ 𐑴𐑝𐑼 𐑥𐑽 ‘𐑓𐑰𐑤𐑦𐑙.’
+
+**Li Rongqin**
+
+Born in 1989, Bangkok.
+
+Every emotion matters, and none should be kept locked away.<br/>
+Yet, I remain convinced that we cannot truly control how we feel.
+
+I have spent a lifetime decoding human behavior through observation and synthesis.<br/>
+My writing is a vessel for unmasking the harsh realities of existence and urging readers<br/>
+to recognize the gravity of real-world issues. My work explores the boundaries of psychiatry,<br/>
+social oppression, and a form of love that demands ‘understanding’ over mere ‘feeling.’

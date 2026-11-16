@@ -2,22 +2,6 @@
 
 <br/>
 
-**李<br/>
-榮<br/>
-欽<br/>**
-
-民國七八年生，曼谷人。
-
-每種情緒都至關重要，我們不應將其埋藏於心；<br/>
-同時我也深信，我們無法真正掌控自己的情感。
-
-我一生都在透過觀察與接收來解碼人類行為。<br/>
-寫作是我表達思想的方式之一，<br/>
-旨在揭露行為背後的殘酷現實，<br/>
-並提醒讀者關注現實生活中的重要問題。<br/>
-我的作品致力於探索精神醫學、社會壓迫，<br/>
-以及那種比起「感覺」更需要「理解」的愛。
-
 **𐑤𐑰 𐑮𐑴𐑙𐑗𐑦𐑯**
 
 𐑚𐑹𐑯 𐑦𐑯 1989, 𐑚𐑨𐑙𐑒𐑪𐑒.
@@ -30,19 +14,7 @@
 𐑑 𐑮𐑧𐑒𐑩𐑜𐑯𐑲𐑟 𐑞 𐑜𐑮𐑨𐑝𐑦𐑑𐑦 𐑝 𐑮𐑾𐑤-𐑢𐑻𐑤𐑛 𐑦𐑖𐑵𐑟. 𐑥𐑲 𐑢𐑻𐑒 𐑦𐑒𐑕𐑐𐑤𐑹𐑟 𐑞 𐑚𐑬𐑯𐑛𐑮𐑦𐑟 𐑝 𐑕𐑲𐑒𐑲𐑩𐑑𐑮𐑦,<br/>
 𐑕𐑴𐑖𐑩𐑤 𐑩𐑐𐑮𐑧𐑖𐑩𐑯, 𐑯 𐑩 𐑓𐑹𐑥 𐑝 𐑤𐑳𐑝 𐑞𐑨𐑑 𐑛𐑦𐑥𐑭𐑯𐑛𐑟 ‘𐑳𐑯𐑛𐑼𐑕𐑑𐑨𐑯𐑛𐑦𐑙’ 𐑴𐑝𐑼 𐑥𐑽 ‘𐑓𐑰𐑤𐑦𐑙.’
 
-**Li Rongqin**
-
-Born in 1989, Bangkok.
-
-Every emotion matters, and none should be kept locked away.<br/>
-Yet, I remain convinced that we cannot truly control how we feel.
-
-I have spent a lifetime decoding human behavior through observation and synthesis.<br/>
-My writing is a vessel for unmasking the harsh realities of existence and urging readers<br/>
-to recognize the gravity of real-world issues. My work explores the boundaries of psychiatry,<br/>
-social oppression, and a form of love that demands ‘understanding’ over mere ‘feeling.’
-
-**หลี่หรงชิน**
+**ลี้หย่งคิม**
 
 เกิดปี 2532, เป็นคนกรุงเทพ
 
