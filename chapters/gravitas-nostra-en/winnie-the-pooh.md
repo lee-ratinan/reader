@@ -1,19 +1,21 @@
-# On Winnie-the-Pooh
+# In the world of Winnie-the-Pooh...
 
-If we look through the glasses of psychiatry... The residents of the Hundred Acre Wood that we love may be fighting different battles in their minds.
+If we were to look through the lens of psychiatry, our dear friends from the Hundred Acre Wood might be facing their own internal battles:
 
-▸ **Pooh**: easily distracted, unable to concentrate, unable to do anything for a long time (Attention Deficit Hyperactivity Disorder (ADHD)) and is also good at eating, eating, and eating honey (Binge Eating)
+▸ **Winnie-the-Pooh**: Often distracted and unable to focus, he constantly shifts his attention from one thing to another (Attention-Deficit/Hyperactivity Disorder (ADHD), Inattentive Type). Plus, he has an insatiable appetite—always eating, eating, and eating more honey (Binge Eating Disorder (BED)).
 
-▸ **Piglet**: his legs are always shaking, he never dares to do anything, worrying about everything in sight (Generalized Anxiety Disorder (GAD))
+▸ **Piglet**: Constantly trembling, he never dares to take action and worries about absolutely everything in his path (Generalized Anxiety Disorder (GAD)).
 
-▸ **Eeyore**: no color, no joy; it’s like happiness is never in the dictionary (Major Depressive Disorder (MDD))
+▸ **Eeyore**: Gloomy and listless—it’s as if the word "happiness" never even existed in his vocabulary (Major Depressive Disorder (MDD)).
 
-▸ **Tigger**: can’t stay still; he uses his tail as a spring to jump around. Aren’t you afraid of annoying others? (ADHD Hyperactive Type (ADHD))
+▸ **Tigger**: He can’t sit still, bouncing around everywhere on his spring-like tail—doesn't he ever worry about annoying others? (ADHD, Hyperactive-Impulsive Type).
 
-▸ **Rabbit**: everything has to be perfect, seriously, if I made a slight mistake, would the world end? (Obsessive-Compulsive Disorder (OCD); obsessive compulsive disorder)
+▸ **Rabbit**: Everything has to be absolutely perfect. Seriously—would the world really come to an end if something went slightly off-plan? (Obsessive-Compulsive Disorder (OCD)).
 
-▸ **Kanga**: oh, let go of the child; you don’t have to be so protective. The child lacks experience Grow up and have problems (Social Anxiety)
+▸ **Kanga**: Oh, please—let your little one have some space! There’s no need to be so overprotective; if the child misses out on life experiences, it’s bound to cause problems later on (Social Anxiety Disorder).
 
-▸ **Owl**: saw all the letters twisted and changed; even wearing glasses still doesn’t help (Dyslexia) and could still believe he is smarter than everyone else (Narcissistic Personality Disorder (NPD))
+▸ **Owl**: He sees letters as twisted, jumbled, and swapped around. Even wearing glasses doesn’t help (dyslexia)—yet they still act as if they’re smarter than everyone else (narcissistic personality disorder, or NPD).
 
-These symptoms are closer to us than we think. Take care of those around you today before it’s too late.
+These conditions are closer to us than we might think. What we once dismissed as mere “personality traits” could actually be a private battle someone is fighting all on their own.
+
+Start paying attention to the people around you today—before it’s too late.

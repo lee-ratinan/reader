@@ -14,13 +14,13 @@ The expensive stainless-steel faucets gleamed. The polished bare-concrete walls 
 
 “Let’s see how many hits a half-breed like you can take.”
 
-Jessada had come with two of his lackeys, all three of them clearly ready to hurt me. His hand tightened around the handle of a blue mop. One good swing and I’d be spending a long time in the nurse’s office. I could already smell the antiseptic and rubbing alcohol.
+Jetsada had come with two of his lackeys, all three of them clearly ready to hurt me. His hand tightened around the handle of a blue mop. One good swing and I’d be spending a long time in the nurse’s office. I could already smell the antiseptic and rubbing alcohol.
 
 I backed away until my spine hit the ice-cold concrete wall. A hundred tiny beads of sweat broke out along my hairline. Hiding in a stall was pointless. They’d kicked the latches off the doors ages ago, and the school had never bothered to fix them.
 
 “Please don’t hurt me. I’m begging you.”
 
-My voice shook so badly it was pathetic, but all it earned me was a low chuckle from Jessada. He stepped toward me, slow but heavy. I had no way to fight back. All I could do was throw my arms over my head. ‘Ern, dammit, help me!’ I thought, right before I screamed at the top of my lungs:
+My voice shook so badly it was pathetic, but all it earned me was a low chuckle from Jetsada. He stepped toward me, slow but heavy. I had no way to fight back. All I could do was throw my arms over my head. _Ern, dammit, help me!_ I thought, right before I screamed at the top of my lungs:
 
 “Don’t!!!”
 
@@ -38,7 +38,7 @@ I looked at the flight booking on the little bedside table and sighed.
 
 So his dad’s getting remarried. So what? It’s not like his life is going to change. He’s acting like his dad is about to become my dad and steal all the love that’s rightfully his. Is he insane? I barely slept last night because of him...
 
-‘I’ve got one dad. That’s plenty, dammit!’ I yelled, loudly, all alone inside my head.
+_I’ve got one dad. That’s plenty, dammit!_ I yelled, loudly, all alone inside my head.
 
 ...
 
@@ -50,7 +50,7 @@ I fell back asleep without realizing it. The next thing I knew, it was already l
 
 Even reaching for that tiny pill felt like it took every ounce of strength I had. I dragged myself to the bathroom mirror. The only thing I didn’t have to force was bringing my phone along... I stared at my own pathetic reflection, then stepped into the shower, turned on the water, and just let it run over me. I didn’t even think about using soap. Deep down, something whispered that someone like me didn’t deserve to be clean, or to wear nice clothes.
 
-‘Just a few more days, Taipei,’ I thought, glancing again at the famous skyscraper on my phone, propped up by the sink.
+_Just a few more days, Taipei,_ I thought, glancing again at the famous skyscraper on my phone, propped up by the sink.
 
 But another part of me tried to force it anyway. I pumped some body wash into my hand and spread it over myself, just so I could feel a little cleaner. Even if it was only a little...
 
@@ -104,11 +104,11 @@ At least, that’s what my ears heard. I looked over at the corner of the table 
 
 ‘Ah... it’s salt, son.’
 
-Her accent turned ‘salt’ into ‘sot,’ and my ears autocorrected it to ‘sauce’ all on their own. Even Chun’s dad had to translate for me... My brain shut down for a second.
+Her accent turned _salt_ into _sot,_ and my ears autocorrected it to _sauce_ all on their own. Even Chun’s dad had to translate for me... My brain shut down for a second.
 
-Kind of hilarious, isn’t it? I can analyze GDP on a macro level, but I got defeated by the way the lady next door pronounced ‘salt.’
+Kind of hilarious, isn’t it? I can analyze GDP on a macro level, but I got defeated by the way the lady next door pronounced _salt._
 
-‘The Thai government has never supported education. Not critical thinking, not languages, not logic. Never. And the clearest proof is right here. This is supposed to be one of the most famous international programs in the country, and yet most of the students don’t understand the lectures. They just sit there until class ends, then go up to the professor and ask what he just said. Isn’t that right, Professor Wales?’ I bet plenty of people would whine, ‘Hey, don’t joke about stuff that’s true.’ But no! I wasn’t joking.
+‘The Thai government has never supported education. Not critical thinking, not languages, not logic. Never. And the clearest proof is right here. This is supposed to be one of the most famous international programs in the country, and yet most of the students don’t understand the lectures. They just sit there until class ends, then go up to the professor and ask what he just said. Isn’t that right, Professor Wales?’ I bet plenty of people would whine, _Hey, don’t joke about stuff that’s true._ But no! I wasn’t joking.
 
 I skipped ahead to near the end of the clip, because I was too lazy to watch the whole thing...
 
@@ -120,7 +120,7 @@ Even people who graduated from top universities think a low cost of living is so
 
 ‘Thank you very much, Mr. Chen,’ Professor James Wales said after I finished and sat down. ‘And I must honestly admit that I wholeheartedly agree with what you said about how hardly anyone here listens to me or understands me... They can’t do the exams, and I can’t read their essays. As you can see, most of our students are only good at sleeping in class!’
 
-‘Huh? Prof, you called me?’ Someone’s voice cut into the clip again. Someone had clearly jolted awake the second they heard the word ‘sleeping.’
+‘Huh? Prof, you called me?’ Someone’s voice cut into the clip again. Someone had clearly jolted awake the second they heard the word _sleeping._
 
 ‘Nothing. Go back to sleep!’ And the clip ended right there, followed by a flood of comments trashing me for trashing them, for saying they couldn’t speak properly, couldn’t understand the professor, and so on.
 
@@ -150,9 +150,9 @@ I’d gone to Yingde International School in Taipei, after all. And my parents w
 
 ‘That explains it. He reads it “two-ten.” We’d probably say “EL sǒng-nùeng-sǔn,” or maybe “two-one-zee-row.”’ This time, the laughter was even louder.
 
-And since when does ‘zero’ end with a ‘w’ sound? Even I was confused. But come on, why tease me? We didn’t even know each other yet. If they’d just told me nicely that their English wasn’t great yet, I could have stuck to basic words. This felt like they were picking on me on purpose. It hurt. Was I really going through this again?
+And since when does _zero_ end with a _w_ sound? Even I was confused. But come on, why tease me? We didn’t even know each other yet. If they’d just told me nicely that their English wasn’t great yet, I could have stuck to basic words. This felt like they were picking on me on purpose. It hurt. Was I really going through this again?
 
-I really wanted to ask them: if you’re too busy making fun of people to bother studying and practicing, when are you ever going to get better? And what did I do wrong? I didn’t know they couldn’t understand ‘two-ten’... Was that really so terrible?
+I really wanted to ask them: if you’re too busy making fun of people to bother studying and practicing, when are you ever going to get better? And what did I do wrong? I didn’t know they couldn’t understand _two-ten_... Was that really so terrible?
 
 I sat there frozen, numb all over, listening to their laughter rise in chorus like losers cheering their gang leader. The same questions kept circling in my head... What was wrong with trying to speak more clearly? Or was ignorance something to be proud of here, while caring was a joke?
 
@@ -179,7 +179,7 @@ _Seriously???_
 
 “Who should actually be ashamed?” I asked flatly. “You posted something exposing how useless your own classmates are, and you think anyone’s going to hire you after you graduate?”
 
-‘Speechless, huh?’ I thought. Guess she couldn’t argue with that one. And next, she was going to deflect, belittle me, or just walk away. I didn’t even know why she’d yelled at me in the first place. She was forcing me to play this game...
+_Speechless, huh?_ I thought. Guess she couldn’t argue with that one. And next, she was going to deflect, belittle me, or just walk away. I didn’t even know why she’d yelled at me in the first place. She was forcing me to play this game...
 
 “Come on, let’s go. Don’t waste time here. Who knows if he’s already gone somewhere else.” And there it was, exactly like I’d predicted. Pathetic. Tried to argue and tripped over her own feet. But whatever. Arguing wouldn’t get me anywhere. I was tired...
 
@@ -218,6 +218,9 @@ Even so, the two of them still turned back to give me a disgusted look, which ma
 
 **Lexapro**
 : The brand name of escitalopram, an antidepressant in the SSRI (selective serotonin reuptake inhibitor) class. It works by rebalancing the neurotransmitter serotonin in the brain and is used to treat depression and anxiety disorders.
+
+**Nation Hater**
+: In Thai, the word ชังชาติ (lit. nation hater) is used to describe people who complain about anything in Thailand. The complaint does not need to be about Thailand or Thai people as a whole. One could be called a nation hater just for commenting negatively about a single Thai person. It is often used to dismiss criticism of the government or society.
 
 **Psychomotor Retardation**
 : A slowing of movement and thought, and one of the hallmark symptoms of depression (as when Kevin describes having to “force” himself even to reach for his pills).

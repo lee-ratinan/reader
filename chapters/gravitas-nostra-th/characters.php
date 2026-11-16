@@ -617,21 +617,21 @@ function country_to_name(string $codes = ''): string
         return '';
     }
     $matching = [
-        'AU' => 'Australia',
-        'DE' => 'German',
-        'GB' => 'British',
-        'ID' => 'Indonesian',
-        'IN' => 'Indian',
-        'JP' => 'Japanese',
-        'KR' => 'South Korean',
-        'MX' => 'Mexican',
-        'MY' => 'Malaysian',
-        'PH' => 'Filipino',
-        'SG' => 'Singaporean',
-        'TH' => 'Thai',
-        'TW' => 'Taiwanese',
-        'US' => 'American',
-        'ZH' => 'Evil Chinese',
+        'AU' => 'ออสเตรเลีย',
+        'DE' => 'เยอรมัน',
+        'GB' => 'อังกฤษ',
+        'ID' => 'อินโดนีเซีย',
+        'IN' => 'อินเดีย',
+        'JP' => 'ญี่ปุ่น',
+        'KR' => 'เกาหลีใต้',
+        'MX' => 'เม็กซิโก',
+        'MY' => 'มาเลเซีย',
+        'PH' => 'ฟิลิปปินส์',
+        'SG' => 'สิงคโปร์',
+        'TH' => 'ไทย',
+        'TW' => 'ไต้หวัน',
+        'US' => 'อเมริกัน',
+        'ZH' => 'จีนแดง',
     ];
     $array = explode('-', $codes);
     $names = [];
@@ -640,20 +640,43 @@ function country_to_name(string $codes = ''): string
     }
     return implode('<br/>', $names);
 }
+function gender_to_name(string $code = ''): string
+{
+    if (empty($code)) {
+        return '';
+    }
+    $genders = [
+        'M' => 'ชาย',
+        'F' => 'หญิง',
+    ];
+    return $genders[$code] ?? $code . '???';
+}
+function format_date(string $date = ''): string
+{
+    if (empty($date)) {
+        return '';
+    } else if (4 === strlen($date)) {
+        return intval($date) + 543;
+    }
+    $year = intval(substr($date, 0, 4)) + 543;
+    $month = substr($date, 5, 2);
+    $day = substr($date, 8, 2);
+    return "$day/$month/$year";
+}
 ?>
 <div class="w-full overflow-x-auto shadow-md sm:rounded-lg">
 <table class="w-full min-w-[600px] text-left text-sm" id="characters">
     <thead>
     <tr>
-        <th>Image</th>
-        <th>Names</th>
-        <th>Aliases</th>
-        <th>Pronunciation</th>
-        <th>Affiliations</th>
-        <th>G.</th>
-        <th>Nat.</th>
-        <th>Eth.</th>
-        <th>DOB</th>
+        <th>รูป</th>
+        <th>ชื่อ</th>
+        <th>ชื่ออื่นๆ</th>
+        <th>คำอ่าน</th>
+        <th>เกี่ยวข้องกับ</th>
+        <th>เพศ</th>
+        <th>สัญชาติ</th>
+        <th>เชื้อชาติ</th>
+        <th>วันเกิด</th>
     </tr>
     </thead>
     <tbody>
@@ -667,10 +690,10 @@ function country_to_name(string $codes = ''): string
         <td><?= str_replace('/', '<br/>', $character[2]??'') ?></td>
         <td><?= @$character[9] ?></td>
         <td><?= str_replace('/', '<br/>', $character[3]??'') ?></td>
-        <td><?= @$character[4] ?></td>
+        <td><?= gender_to_name($character[4]??'') ?></td>
         <td><?= country_to_name(@$character[5]) ?></td>
         <td><?= country_to_name(@$character[6]) ?></td>
-        <td><?= @$character[7] ?></td>
+        <td data-order="<?= @$character[7] ?>"><?= format_date($character[7]??'') ?></td>
     </tr>
     <?php endforeach; ?>
     </tbody>
@@ -679,7 +702,7 @@ function country_to_name(string $codes = ''): string
 <script>
     new DataTable('#characters');
 </script>
-<div class="w-full">
+<div class="w-full d-none">
     <?php /* foreach ($characters as $row) {
         if (!empty($row[1])) {
             echo '- Name: '. $row[1];
