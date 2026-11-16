@@ -32,11 +32,11 @@ Ow, dammit!
 
 I still had no idea why *I* had to run with him. I was going to class, not fleeing a zombie horde like Chun. Every step I took, dragged along by his pull, made it feel like the world was spinning out of control.
 
-We ran out of my Faculty of Science building and along the side toward the Faculty of Engineering… *Okay, good,* I thought. *He picked the right way.* Because if he’d gone the other direction, past the Faculty of Architecture, it was all open field. No cover, nothing. I would’ve had to run a marathon and probably died.
+We ran out of my Faculty of Science building and along the side toward the Faculty of Engineering... *Okay, good,* I thought. *He picked the right way.* Because if he’d gone the other direction, past the Faculty of Architecture, it was all open field. No cover, nothing. I would’ve had to run a marathon and probably died.
 
 The logical part of my brain fought against the instinctive part that only knew how to scream *run*. I had to find a way to lose ourselves in the crowd of the faculty up ahead.
 
-*Why the hell are you dragging me along?* I asked him in my head. I genuinely had no breath left to say it out loud. Every breath in and out felt like it was on fire. Every scream from the fandom stabbed into my eardrums until they were about to burst. Ugh… This is sensory overload, for sure… Shit! Not now!
+*Why the hell are you dragging me along?* I asked him in my head. I genuinely had no breath left to say it out loud. Every breath in and out felt like it was on fire. Every scream from the fandom stabbed into my eardrums until they were about to burst. Ugh... This is sensory overload, for sure... Shit! Not now!
 
 I glanced back, and my chest only tightened more when I saw the zombie horde still on our tail. Now some of the engineering zombies had joined in too, even though that faculty is supposed to be nothing but macho dudes. Then we reached a three-way junction. Straight ahead was the Communication Arts building, but if we went in there, we’d definitely get swarmed by even more zombies.
 
@@ -50,11 +50,11 @@ But the moment we turned, the sun on our right, from the east, shot straight int
 
 It was pretty hard to pitch my voice just loud enough for Chun to hear, but quiet enough that anyone who might understand Chinese wouldn’t know where we were headed. Before long, we reached a little nook that turned out to be a restroom, and I immediately yanked Chun in.
 
-“Shh… Hide in here for a while…”
+“Shh... Hide in here for a while...”
 
 The guys already in the restroom were baffled. What was going on? Who were these two? Who were they running from? Then one of them stared at me and Chun, confused, before heading for the door to leave.
 
-“Wait…” I quickly called after him. “If there are girls out there looking for some famous influencer, don’t tell anyone we’re hiding in here.”
+“Wait...” I quickly called after him. “If there are girls out there looking for some famous influencer, don’t tell anyone we’re hiding in here.”
 
 He nodded before walking out.
 
@@ -72,9 +72,9 @@ Chun made a show of finally getting it. Well, obviously. Living in Sydney, there
 
 Right then, the restroom door swung open again as another student walked in, while one of the guys who’d just finished washing his hands was on his way out.
 
-“Kev…? You in here?”
+“Kev...? You in here?”
 
-It was Ern’s voice. Yep… A tall, skinny guy with slightly dark skin, the studious type in half a student uniform, white shirt over jeans, walking in slowly.
+It was Ern’s voice. Yep... A tall, skinny guy with slightly dark skin, the studious type in half a student uniform, white shirt over jeans, walking in slowly.
 
 “Ern? You saw that too?” I turned to ask my friend from high school.
 
@@ -82,9 +82,9 @@ It was Ern’s voice. Yep… A tall, skinny guy with slightly dark skin, the stu
 
 I felt instantly relieved hearing Ern say that. I pictured the layout of the building outside. The lecture sheet shop was under the stairs, close to the restroom. By the time I made it here, the girls had probably only just reached the building, so Ern must have seen the whole thing and pieced it together.
 
-“This your mate?” Chun asked… Well, *duh*. Why even ask??? Sometimes I really don’t get him. I mean, I know his name. If he’s not my friend, what is he, my dad?
+“This your mate?” Chun asked... Well, *duh*. Why even ask??? Sometimes I really don’t get him. I mean, I know his name. If he’s not my friend, what is he, my dad?
 
-“So this is the infamous troublemaker Chun you’re always bitching about,” Ern said, clearly amused. He was probably cracking up at how way too casually Chun was dressed for a Thai university lecture building: denim shorts, neon orange sneakers, and a shirt with sleeves that were way too short… Typical of someone who grew up in a developed country. Over there, nobody has rules about what you can and can’t wear to school, as long as you’re not indecent. As far as I know, even tank tops are fine. In Thailand, he’d be in serious trouble.
+“So this is the infamous troublemaker Chun you’re always bitching about,” Ern said, clearly amused. He was probably cracking up at how way too casually Chun was dressed for a Thai university lecture building: denim shorts, neon orange sneakers, and a shirt with sleeves that were way too short... Typical of someone who grew up in a developed country. Over there, nobody has rules about what you can and can’t wear to school, as long as you’re not indecent. As far as I know, even tank tops are fine. In Thailand, he’d be in serious trouble.
 
 “Yeah, that’s him. Just flew over out of nowhere and got a whole stampede of girls chasing after him.”
 
@@ -92,27 +92,27 @@ Ern let out a sigh, but there wasn’t much he could do. “I’ll go scope thin
 
 Chun and I looked at each other in silence for a while, which finally gave me the chance to take a good, long look at him after almost ten years.
 
-The kid I used to run around with in my memories was now a man, close to a hundred and eighty centimeters tall, probably only a few centimeters taller than me. He had the sharp, striking features of your typical Thai-Chinese half-blood… *typical* in the sense that any shop he stood in front of would see its sales jump. Broad shoulders. The arms sticking out of those too-short sleeves were clearly toned, the kind you get from hitting the gym as a routine. His short, side-parted hair was dyed a dark brown. If it could look this good under the pale fluorescent lights of a restroom, I didn’t even have to guess how glossy it must have looked in the morning sun earlier.
+The kid I used to run around with in my memories was now a man, close to a hundred and eighty centimeters tall, probably only a few centimeters taller than me. He had the sharp, striking features of your typical Thai-Chinese half-blood... *typical* in the sense that any shop he stood in front of would see its sales jump. Broad shoulders. The arms sticking out of those too-short sleeves were clearly toned, the kind you get from hitting the gym as a routine. His short, side-parted hair was dyed a dark brown. If it could look this good under the pale fluorescent lights of a restroom, I didn’t even have to guess how glossy it must have looked in the morning sun earlier.
 
 Everything about him looked like it had stepped straight out of one of his social media clips. Only his eyes were something I could still recognize as belonging to the same old Chun.
 
 “Let’s go to Taipei today, yeah? Let’s go stop the wedding.” Chun was the first to break the silence. Honestly, I had no idea what he thought stopping it would achieve. Ever since I got word that Mom was going to remarry, to Chun’s dad, Chun had started reaching out to me, asking me to go and sabotage the wedding with him. I’d turned him down every single time, but we never really talked it through. That must be why he flew all the way here.
 
-“Stop it for what, dude? Can you think for once?… What’s stopping it gonna change?” I asked him straight out, trying to keep my voice from shaking. Chun’s face fell completely, as if he’d been running on pure emotion this whole time and had forgotten to ask himself that one simple question.
+“Stop it for what, dude? Can you think for once?... What’s stopping it gonna change?” I asked him straight out, trying to keep my voice from shaking. Chun’s face fell completely, as if he’d been running on pure emotion this whole time and had forgotten to ask himself that one simple question.
 
-“I think… you don’t actually envy my mom, or hate her, Chun. You’re just hurt that Uncle Sakda didn’t fight for you, aren’t you?” I seized the moment and kept going, stepping a little closer, my tone softening. “You’re angry that your dad let your aunt take you to Sydney. You’re angry that he didn’t make you stay… So now you want to wreck his happiness in return.”
+“I think... you don’t actually envy my mom, or hate her, Chun. You’re just hurt that Uncle Sakda didn’t fight for you, aren’t you?” I seized the moment and kept going, stepping a little closer, my tone softening. “You’re angry that your dad let your aunt take you to Sydney. You’re angry that he didn’t make you stay... So now you want to wreck his happiness in return.”
 
 Chun was stunned for a moment. The air went quiet again, almost eerily so, even with the restroom’s exhaust fan still humming. The guy in front of me opened his mouth as if to argue, but the words got stuck in his throat.
 
 A stall door creaked open, probably the last occupied one. An unfamiliar student walked out to the sink, and the soft sound of running water joined in breaking the silence of the restroom.
 
-I waited until the water stopped. The stranger glanced at us briefly before walking out… Good thing Chun isn’t famous among guys at all. Otherwise we’d have been screwed.
+I waited until the water stopped. The stranger glanced at us briefly before walking out... Good thing Chun isn’t famous among guys at all. Otherwise we’d have been screwed.
 
-“But Chun… you know what your dad’s like. He’s not a coward. He just didn’t want to fight with your aunt and make things worse. You shouldn’t take your loneliness out on him.” I paused and let out a sigh. “And him marrying my mom… That’s just two single people who happened to fall for each other. Are you seriously going to stop them and leave two old people lonely for the rest of their lives, just so you can feel better?”
+“But Chun... you know what your dad’s like. He’s not a coward. He just didn’t want to fight with your aunt and make things worse. You shouldn’t take your loneliness out on him.” I paused and let out a sigh. “And him marrying my mom... That’s just two single people who happened to fall for each other. Are you seriously going to stop them and leave two old people lonely for the rest of their lives, just so you can feel better?”
 
-“But I…” Chun mumbled, his voice much softer than before.
+“But I...” Chun mumbled, his voice much softer than before.
 
-“What do you actually want? Does him remarrying really mean you’re losing your dad? Or are you just scared that once he has a new family… you’ll become the outsider?” I asked the question that hit closest to home. Honestly, even though I acted like it didn’t bother me, I was secretly afraid of the same thing.
+“What do you actually want? Does him remarrying really mean you’re losing your dad? Or are you just scared that once he has a new family... you’ll become the outsider?” I asked the question that hit closest to home. Honestly, even though I acted like it didn’t bother me, I was secretly afraid of the same thing.
 
 “Ask yourself that. Seriously,” I pressed again, staring deep into the eyes of the half-blood guy who now looked a whole lot more fragile than he ever did on social media.
 
@@ -120,9 +120,9 @@ I waited until the water stopped. The stranger glanced at us briefly before walk
 
 I let the silence do its job, let Chun actually think about something for once.
 
-“It’s me, isn’t it? That’s why you rushed over here? Having me as your ‘little brother’ is what pisses you off?… Or if I did something wrong, then fine, I’m sorry.”
+“It’s me, isn’t it? That’s why you rushed over here? Having me as your ‘little brother’ is what pisses you off?... Or if I did something wrong, then fine, I’m sorry.”
 
-I let the moment hang for a beat…
+I let the moment hang for a beat...
 
 “But I’m really not in the mood to go anywhere with you.”
 
