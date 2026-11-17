@@ -14,7 +14,7 @@ If we were to look through the lens of psychiatry, our dear friends from the Hun
 
 ▸ 🦘 **Kanga**: Oh, please—let your little one have some space! There’s no need to be so overprotective; if the child misses out on life experiences, it’s bound to cause problems later on (Social Anxiety Disorder).
 
-▸ 🦉 **Owl**: He sees letters as twisted, jumbled, and swapped around. Even wearing glasses doesn’t help (dyslexia)—yet they still act as if they’re smarter than everyone else (narcissistic personality disorder, or NPD).
+▸ 🦉 **Owl**: He sees letters as twisted, jumbled, and swapped around. Even wearing glasses doesn’t help (dyslexia)—yet he still acts as if he’s smarter than everyone else (narcissistic personality disorder, or NPD).
 
 These conditions are closer to us than we might think. What we once dismissed as mere “personality traits” could actually be a private battle someone is fighting all on their own.
 

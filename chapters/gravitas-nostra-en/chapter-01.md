@@ -6,9 +6,11 @@
 
 Bangkok, Thailand
 
-The bathroom was clean, sure. No disgusting puddles on the floor, and whatever was broken had been hidden neatly out of sight. But that didn’t make it a place you’d ever want to walk into. This was the bathroom of a luxury high school packed with rich kids from all over Bangkok and its suburbs, a school that survived on donations far more than on tuition. The result? A student body full of spoiled brats who always got their way, and plenty of them liked to use their fists.
+The bathroom was clean, sure. No disgusting puddles on the floor, and whatever was broken had been hidden neatly out of sight. But that didn’t make it a place you’d ever want to walk into. This was the bathroom of a luxury high school packed with rich kids from all over Bangkok and its gorgeous neighboring metropolitan areas, a school that survived on donations far more than on tuition. The result? The school was full of selfish spoiled brats, and plenty of them liked to use their fists.
 
-That’s right. **St. Lucius High (SLH)**, or what we secretly called **Sukhumvit Lawless High**, was a place where a seven-figure donation could buy you anything. Even the right to swing a mop at anyone’s head.
+That’s right. _St. Lucius High (SLH)_, or what we secretly called _Sukhumvit Lawless High_, was a place where a seven-figure donation could buy you anything. Even the right to swing a mop at anyone’s head.
+
+And yes, those seven figures are in baht. That’s only about _thirty grand_, if you think in USD.
 
 The expensive stainless-steel faucets gleamed. The polished bare-concrete walls looked spotless. But without a single adult around, the room turned eerily cold... a blind spot made for destruction.
 
@@ -22,7 +24,7 @@ I backed away until my spine hit the ice-cold concrete wall. A hundred tiny bead
 
 My voice shook so badly it was pathetic, but all it earned me was a low chuckle from Jetsada. He stepped toward me, slow but heavy. I had no way to fight back. All I could do was throw my arms over my head. _Ern, dammit, help me!_ I thought, right before I screamed at the top of my lungs:
 
-“Don’t!!!”
+“**Don’t!!!**”
 
 ...
 
@@ -32,13 +34,13 @@ I jolted awake, drenched in cold sweat... A nightmare had dragged me out of slee
 
 My heart was pounding, as if it were protesting, trying to launch my blood into space.
 
-The latest, freshest problem: Chun had been pestering me for days. I had no idea why he wouldn’t give up, even though I’d already told him flat out that I wasn’t going to help him sabotage his dad’s remarriage to my mom. Plus, I didn’t want to skip class for that long. I was only flying in for the wedding and flying right back out. Three nights in Taipei was already more than enough. But no, he wanted to drag me there early so we could break the whole thing up before it even happened? Not a chance.
+The latest, freshest problem: Chun had been pestering me for days. I had no idea why he wouldn’t give up, even though I’d already told him firmly that I wasn’t going to help him sabotage his dad’s remarriage to my mom. Plus, I didn’t want to skip class for that long. I was only flying in for the wedding and flying right back out. Three nights in Taipei was already more than enough. But no, he wanted to drag me there early so we could break the whole thing up before it even happened? Not a chance.
 
 I looked at the flight booking on the little bedside table and sighed.
 
-So his dad’s getting remarried. So what? It’s not like his life is going to change. He’s acting like his dad is about to become my dad and steal all the love that’s rightfully his. Is he insane? I barely slept last night because of him...
+So his dad’s getting remarried. Then? It’s not like his life is going to change. He’s acting like his dad is about to become my dad and steal all the love that’s rightfully his. That was an insane idea, wasn’t it? I barely slept last night because of him...
 
-_I’ve got one dad. That’s plenty, dammit!_ I yelled, loudly, all alone inside my head.
+_I’ve got one dad. That’s fucking enough!_ I yelled, loudly, all alone inside my head.
 
 ...
 
@@ -46,11 +48,11 @@ _I’ve got one dad. That’s plenty, dammit!_ I yelled, loudly, all alone insid
 > 
 > Medications Reminder: 07:00 AM
 
-I fell back asleep without realizing it. The next thing I knew, it was already light out. Sunlight from the balcony stabbed at my eyes until I had no choice but to open them. The chickens the locals kept behind the dorm must have finished crowing by now. My phone chimed, telling me to take my meds. With whatever energy I had, I forced my hand out to grab my black iPhone, its wallpaper a photo of Taipei 101, unlocked it, and tapped the option saying I’d taken them. My body felt heavy, like invisible chains were holding me down to the bed. Force it... forcing it was all I ever did, every single day. I forced myself to reach for the white-and-yellow box on the nightstand. The label read ‘Lexapro 10 mg.’ An antidepressant, for people with depression. People like me.
+I fell back asleep without realizing it. The next thing I knew, it was already bright outside. Sunlight from the balcony stabbed at my eyes until I had no choice but to open them. The chickens the locals kept behind the dorm must have finished crowing by now. My phone chimed, telling me to take my meds. With whatever energy I had, I forced my hand out to grab my black iPhone, its wallpaper a photo of Taipei 101, unlocked it, and tapped the option saying I’d taken them. My body felt heavy, like invisible chains were holding me down to the bed. Force it... forcing it was all I ever did, every single day. I forced myself to reach for the white-and-yellow box on the nightstand. The label read _Lexapro 10 mg_. An antidepressant, for people with depression. People like me.
 
 Even reaching for that tiny pill felt like it took every ounce of strength I had. I dragged myself to the bathroom mirror. The only thing I didn’t have to force was bringing my phone along... I stared at my own pathetic reflection, then stepped into the shower, turned on the water, and just let it run over me. I didn’t even think about using soap. Deep down, something whispered that someone like me didn’t deserve to be clean, or to wear nice clothes.
 
-_Just a few more days, Taipei,_ I thought, glancing again at the famous skyscraper on my phone, propped up by the sink.
+_Just a few more days, Taipei,_ I thought, glancing again at the famous skyscraper on my phone I left by the sink.
 
 But another part of me tried to force it anyway. I pumped some body wash into my hand and spread it over myself, just so I could feel a little cleaner. Even if it was only a little...
 
