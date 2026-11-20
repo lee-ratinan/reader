@@ -56,15 +56,15 @@ _Just a few more days, Taipei,_ I thought, glancing again at the famous skyscrap
 
 But another part of me tried to force it anyway. I pumped some body wash into my hand and spread it over myself, just so I could feel a little cleaner. Even if it was only a little...
 
-I tried to turn everything into a routine. After my shower, I got dressed. Just a white button-down, faded blue jeans, a black hoodie, and my favorite black cap. Then I rode my dark-green bicycle to the faculty building, weaving through the chaotic campus traffic, unlike the other students, who loved driving their luxury cars to class.
+I tried to turn everything into a routine. After my shower, I got dressed. Just a white shirt, faded blue jeans, a black hoodie, and my favorite black cap. Then I rode my dark-green bicycle to the faculty building, weaving through the chaotic campus traffic, unlike the other students, who loved driving their luxury cars to class.
 
-I joined the line at the café on the ground floor to order breakfast and coffee. The aroma drifting from the espresso machine was just enough to wake me up a bit. Made me feel a little more alive.
+I joined the line at the café on the first floor to order breakfast and coffee. The aroma drifting from the espresso machine was just enough to wake me up a bit. Made me feel a little more alive.
 
-“The omelet set and an Americano, zero percent sugar, same as usual?”
+“The omelet set with an Americano, zero percent sugar, as usual?”
 
-The barista greeted me with the same old smile... Sometimes I wondered if smiles like that were exactly what was about to give me a migraine. But at the same time, I felt weirdly guilty for flashing a fake smile back at her, when my head was as empty as a coffee cup nobody had filled yet.
+The barista greeted me with the same old smile... Sometimes I wondered if smiles like that were the cause of my migraine. But at the same time, I felt weirdly guilty for flashing a fake smile back at her, when my head was as empty as a coffee cup nobody had filled yet.
 
-Still, I was glad she remembered. It saved me a lot of energy on ordering. Honestly, I used to be confused about why the staff always asked what percentage of sugar I wanted, because an Americano is literally espresso and water. And she used to be confused about why I didn’t know Thai people put sugar in their Americanos.
+Still, I was glad she remembered. It saved me a lot of energy on ordering. Honestly, I used to be confused about why the staff always asked what percentage of sugar I wanted, because an Americano is _literally espresso and water_. And she used to be confused about why I didn’t know Thai people put sugar in their Americanos.
 
 Those conversations were pure torture.
 
@@ -76,7 +76,7 @@ A message from Ern popped up on my iPhone screen. He was an old friend from high
 
 ‘DC,’ I typed back. Simple. My small group of high school friends all knew what it meant: ‘don’t care,’ from the don’t-care terms in Digital Logic.
 
-‘Hello Kevin. Are you alright? About the clip, I mean. Don’t overthink it, OK?’ This time it was Thatchai. He was from my high school years too, but we’d met at a cram school near Siam, so we weren’t as close.
+‘Hello Kevin. Are you alright? About that video clip, I mean. Don’t overthink it, OK?’ This time it was Thatchai. He was from my high school years too, but we had met at a cram school near Siam, so we weren’t as close.
 
 ‘k’ This time I couldn’t reply in code. We weren’t close enough to have secret codes like that.
 
@@ -84,21 +84,21 @@ Why should I waste brainpower caring about it? Let me explain. That clip going v
 
 > Surasak Tech’s freshy talked bad about you in class
 
-Uh... the wording’s a mess... For someone in an international program. I only kept it to myself because I don’t want to be the grammar police. Not that I could keep up even if I tried. There’s a mistake every single second.
+Uh... the wording’s a mess. Too broken to be written by someone from an international school. But I only kept it to myself because I didn’t want to be the grammar police. I wouldn’t be able to keep up even if I tried anyway. There’s a mistake every single second.
 
 It’s not like I’m that uptight about language, by the way. People who make mistakes because they’re practicing to get better? I love that. What gets me is the ones who get it wrong and then act all proud, convinced they’re amazing, refusing to fix anything, and then yelling at everyone else for not understanding them. That’s just...
 
-Honestly, I once heard some upperclassmen in English class trashing the teacher for being so strict. But me? In casual conversation, if it’s the kind of grammar mistake everybody around the world makes, I’ve never said a word. With a teacher, though, or in an official document, at least make an effort.
+Honestly, I once heard some sophomores in English class trashing the teacher for being so strict. But me? In casual conversation, if it’s the kind of grammar mistake everybody around the world makes, I’ve never said a word. With a teacher, though, or in an official document, at least make an effort.
 
-‘Looking at the GDP per capita, we can see that Thailand and Singapore were not that far apart around six or seven decades ago.’ This must have been cut from one of those full-lecture recordings people make for classmates who skip, which was why it caught everything, starting from the moment I began to answer... I watched myself standing there, answering earnestly, while the camera panned to some guy in the back row with his mouth wide open in a yawn.
+‘Looking at the GDP per capita, we can see that Thailand and Singapore were not that far apart around six or seven decades ago.’ This must have been cut from one of those full-lecture recordings people make for classmates who skip, which was why it caught everything, starting from the moment I began to answer... I watched myself standing there, answering earnestly, while the camera panned to some guy in the back row with his mouth wide open, yawning.
 
-‘But today, it’s clear that their GDP and GNI per capita are more than ten times ours. That tells you how seriously they’ve invested in human capital, in education, and above all, in English. Even though a lot of Singaporeans are only good at taking exams and can’t actually say much in real life, they’ve still pulled themselves this far. Meanwhile, we...’
+‘But today, it’s clear that their GDP and GNI per capita are more than ten times higher. That tells you how seriously they’ve invested in human capital, in education, and above all, in English. Even though a lot of Singaporeans are only good at taking exams and can’t actually say much in real life, they’ve still pulled themselves this far. Meanwhile, we...’
 
 In the clip, I paused and looked at Professor James Wales, who was nodding wearily.
 
 Watching the clip, I remembered a time back when I was a kid in Taipei. My family had gone out for steak with two other neighbor families, Chun’s and Weixiang’s. Auntie Lily, Chun’s mom, was Singaporean.
 
-‘Kevin ah, pass me 那个 sauce, can?’
+‘Kevin ah, pass me na-ge sauce, can?’
 
 At least, that’s what my ears heard. I looked over at the corner of the table where the condiments were neatly lined up. As amazing as the steak smelled, I was still sharp enough to pick up the bright-red ketchup and hand it to her with total confidence, before grabbing my knife and fork to slice into the tender meat...
 
@@ -106,19 +106,19 @@ At least, that’s what my ears heard. I looked over at the corner of the table 
 
 ‘Ah... it’s salt, son.’
 
-Her accent turned _salt_ into _sot,_ and my ears autocorrected it to _sauce_ all on their own. Even Chun’s dad had to translate for me... My brain shut down for a second.
+Her accent turned _salt_ into _sot_, and my ears autocorrected it to _sauce_ all on their own. Even Chun’s dad had to translate for me... My brain shut down for a second.
 
-Kind of hilarious, isn’t it? I can analyze GDP on a macro level, but I got defeated by the way the lady next door pronounced _salt._
+Kind of hilarious, isn’t it? I can analyze GDP on a macro level, but I got defeated by the way the auntie next door pronounced _salt_.
 
 ‘The Thai government has never supported education. Not critical thinking, not languages, not logic. Never. And the clearest proof is right here. This is supposed to be one of the most famous international programs in the country, and yet most of the students don’t understand the lectures. They just sit there until class ends, then go up to the professor and ask what he just said. Isn’t that right, Professor Wales?’ I bet plenty of people would whine, _Hey, don’t joke about stuff that’s true._ But no! I wasn’t joking.
 
-I skipped ahead to near the end of the clip, because I was too lazy to watch the whole thing...
+My laziness won, so I skipped ahead. I continued watching the last minutes.
 
-‘...don’t even know how bad our minimum wage is compared to other places. In Japan, half an hour of work buys you a filling bowl of gyudon, with free tea on top. Here, you work yourself half to death for an hour, and all it buys you is rice and curry from a street stall, eaten on a stinking sidewalk with ice water from some old jug that may or may not have ever been washed. And we’re still supposed to be proud of our cheap cost of living?’
+‘...don’t even know how bad our minimum wage is compared to other places. In Japan, half an hour of work buys you a filling bowl of gyudon, with free tea on top. Here, you work yourself half to death for an hour, and all it buys you is a plate of khâo kaeng from a street stall, eaten on a stinking sidewalk with ice water from some old jug that may or may not have ever been washed. And we’re still supposed to be proud of our cheap cost of living?’
 
-Even people who graduated from top universities think a low cost of living is something to be proud of... So the question is, how did they even graduate? And what about here, at Surasak International College of Technology, or SICT, where I study... Would anyone come out in one piece? If you ask me, we’ll all graduate SICK.
+Even people who graduated from top universities think a low cost of living is something to be proud of... So the question is, how did they even graduate? And what about here, at _Surasak International College of Technology_, or _SICT_, where I study... Would anyone come out in one piece? If you ask me, we’ll all graduate _SICK_.
 
-‘The government wants to keep Thai people poor,’ my voice in the clip went on, rising with emotion. ‘Every time there’s a disaster, they hand out relief bags and then expect everyone to praise them for their kindness. They ride boats around for photo ops for the news, after the floodwater’s already down to ankle height.’ I clenched my fists so hard they shook, remembering those news photos. ‘Sorry, I’m not buying it. I want what developed countries have: a government that helps people survive any situation without having to worship their leaders like gods. People who can survive without waiting for someone to hand them a “stupid” bag full of expired instant noodles and rotten cans of sardines.’
+‘The government wants to keep Thai people poor,’ my voice in the clip went on, rising with emotion. ‘Every time there’s a disaster, they hand out relief bags and then expect everyone to praise them for their kindness. They ride boats around for photo ops for the news, after the floodwater’s already down to ankle height.’ I clenched my fists so hard they shook, remembering those news photos. ‘Sorry, I’m not buying it. I want what developed countries have: a government that helps people survive any situation without having to worship their leaders like gods. People who can survive without waiting for someone to hand them a _stupid_ bag full of expired instant noodles and rotten cans of sardines.’
 
 ‘Thank you very much, Mr. Chen,’ Professor James Wales said after I finished and sat down. ‘And I must honestly admit that I wholeheartedly agree with what you said about how hardly anyone here listens to me or understands me... They can’t do the exams, and I can’t read their essays. As you can see, most of our students are only good at sleeping in class!’
 
@@ -130,43 +130,43 @@ Even people who graduated from top universities think a low cost of living is so
 
 ‘Such a fucking contrarian. I’ll talk with my accent however I want. Got a problem?’
 
-And when exactly did I say anything about your accent? Having a different accent is normal. Speaking so badly, with grammar so broken that nobody can understand you, is a whole different thing. Guess these people never learned to think, analyze, or tell the difference.
+And when exactly did I say anything about your accent? Having a different accent is normal. Speaking so badly, with grammar so broken that nobody can understand you, is a whole different thing. Guess these people never learned to even think at all.
 
-Sigh... I don’t care. You’re bad at English, but you still enrolled in an international program. If you have trouble communicating, you should be working to improve, not dumping the problem on everyone else. Otherwise, when are you ever going to get better? That’s how a place ends up being international in name only. Think about it. Think about everything I’ve been through studying here, and tell me. Is it fair to expect me to just keep putting up with it without saying a word?
+Sigh... I don’t care. You’re bad at English, but you still enrolled in an international program. If you have trouble communicating, you should be working to improve, not dumping the problem on everyone else. Otherwise, when are you ever going to get better? That’s how this place ends up being international in name only. Think about it. Think about everything I’ve been through studying here, and tell me. Is it fair to expect me to just keep putting up with it without saying a word?
 
 I had to build my emotional walls sky-high to protect myself from these people. So I could heal.
 
 ‘What’ve you got this afternoon?’ a classmate asked me back in my first few days here, when everyone was still getting to know each other. He hadn’t come alone, either. He’d brought two or three other new friends along.
 
-‘This afternoon? EL-two-ten,’ I answered out of habit, with just the course code. Totally normal.
+‘This afternoon? _EL-two-ten_,’ I answered out of habit, with just the course code. Totally normal.
 
-‘What?’ They looked at each other, confused, as if asking, *Did you get that?* I knew right then that I needed to slow down. Be friendlier.
+‘What?’ They looked at each other, confused, as if asking, _Did you get that?_ I knew right then that I needed to slow down. Be friendlier.
 
-Honestly, no matter how much of a wreck I was, the logical part of my brain still processed it: I wanted friends.
+Honestly, no matter how much of a wreck I was, the logical part of my brain still processed it: _I wanted friends_.
 
 ‘E-L-two-ten.’ And since that still wasn’t enough, I added the course name to make it easier for them. ‘English for Engineers.’
 
 ‘Whoa, look at him, taking the advanced class. I’m only in EL zero-seven-zero,’ another guy cut in, teasing, and a few others laughed. At my university, there were several levels: 070 for the basics, then 171 and 172, which were a bit harder. I’d skipped all of those and gone straight to 210, the English course required for the engineering and science faculties.
 
-I’d gone to Yingde International School in Taipei, after all. And my parents were different nationalities and spoke English at home, so I’d been speaking English since before kindergarten.
+I’d gone to _Yingde International School_ in Taipei, after all. And my parents were from different countries and spoke English at home, so I’d been speaking English as my mother tongue.
 
-‘That explains it. He reads it “two-ten.” We’d probably say “EL sǒng-nùeng-sǔn,” or maybe “two-one-zee-row.”’ This time, the laughter was even louder.
+‘That explains it. He reads it _two-ten._ We’d probably say _EL sǒng-nùeng-sǔn,_ or maybe _two-one-zee-row._’ This time, the laughter was even louder.
 
-And since when does _zero_ end with a _w_ sound? Even I was confused. But come on, why tease me? We didn’t even know each other yet. If they’d just told me nicely that their English wasn’t great yet, I could have stuck to basic words. This felt like they were picking on me on purpose. It hurt. Was I really going through this again?
+And since when does _zero_ end with a _w_ sound? Even I was confused. But come on, why tease me? We didn’t even know each other yet. If they’d just told me nicely that their English wasn’t great yet, I could have stuck to basic words. This felt like they were picking on me on purpose. It hurt. Was I really going through this all over again?
 
-I really wanted to ask them: if you’re too busy making fun of people to bother studying and practicing, when are you ever going to get better? And what did I do wrong? I didn’t know they couldn’t understand _two-ten_... Was that really so terrible?
+I really wanted to ask them: _if you’re too busy making fun of people to bother studying and practicing, when are you ever going to get better? And what did I do wrong? I didn’t know they couldn’t understand _two-ten_... Was that really so terrible?_
 
-I sat there frozen, numb all over, listening to their laughter rise in chorus like losers cheering their gang leader. The same questions kept circling in my head... What was wrong with trying to speak more clearly? Or was ignorance something to be proud of here, while caring was a joke?
+I sat there frozen, numb all over, listening to their laughter rise in chorus like losers cheering their gang leader along some dirty backstreets in Harlem. The same questions kept circling in my head... What was wrong with trying to speak more clearly? Or was ignorance something to be proud of here, while caring was a joke?
 
 The thing that hurt the most at this university was a conversation I overheard in the bathroom. ‘Look at that Kevin guy. Is he a human or a total idiot? Riding a bicycle to class. He’s ruining our faculty’s image.’
 
-Is our faculty selling looks or brains? *If you want a good image, go walk a runway. Don’t bother studying. It’s too much work for your brain anyway.*
+Is our faculty selling looks or brains? _If you want a good image, go walk a runway. Don’t bother studying. It’s too much work for your brain anyway._
 
 That’s right. The image of our faculty, the Faculty of Science, was all spoiled rich kids rather than the rough-and-tumble engineering types. So nobody biked to class. There was always a friend with a luxury car, and anyone without a car just hitched a ride.
 
 Thinking about it made my hands shake so badly I dropped my phone on the table. I tried to pull myself together, breathing in slowly for four seconds, holding for four, then letting it out for another four, the way my psychiatrist had taught me, until I finally started to steady. I stabbed the last piece of sausage with my fork and put it in my mouth, then drained what was left of my coffee. The rich, nutty taste and the aroma that used to wake me up had vanished, like they’d never existed... And that was that. Breakfast, done.
 
-I put my plate and coffee cup on the return rack before heading out of the café under the faculty building. But before I’d even made it through the door, someone’s shoulder slammed into mine, and I nearly lost my balance.
+I put my plate and coffee cup on the return rack before heading out of the café. But before I’d even made it through the door, someone’s shoulder slammed into mine, and I nearly lost my balance.
 
 “Ow! Don’t you look where you’re going?!”
 
@@ -218,10 +218,13 @@ Even so, the two of them still turned back to give me a disgusted look, which ma
 **Emotional Walls**
 : A psychological self-defense mechanism: shutting oneself off from almost everyone to avoid getting hurt again. Unlike boundaries, which are like a fence with a gate that lets you choose who comes in and how far, emotional walls have no gate. They keep out both the people who would hurt you and the people who mean well. They’re common in people who have been bullied or emotionally hurt again and again, as well as in people with depression. In the short term, walls may feel safe, but in the long run they lead to isolation and make it harder to accept help from others (for example, when Kevin answers Thatchai’s caring message with just ‘k’).
 
+**Khâo Kaeng (ข้าวแกง)**
+: A plate of steamed rice topped with two or three ready-made dishes, picked from trays displayed at a street stall or food court. It is one of the cheapest and most common everyday meals in Thailand. Despite the name (lit. “rice and curry”), the dishes are not always curries; they can be stir-fries, soups, or anything else on display that day.
+
 **Lexapro**
 : The brand name of escitalopram, an antidepressant in the SSRI (selective serotonin reuptake inhibitor) class. It works by rebalancing the neurotransmitter serotonin in the brain and is used to treat depression and anxiety disorders.
 
-**Nation Hater**
+**Nation Hater (ชังชาติ)**
 : In Thai, the word ชังชาติ (lit. nation hater) is used to describe people who complain about anything in Thailand. The complaint does not need to be about Thailand or Thai people as a whole. One could be called a nation hater just for commenting negatively about a single Thai person. It is often used to dismiss criticism of the government or society.
 
 **Psychomotor Retardation**
