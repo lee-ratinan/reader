@@ -8,19 +8,19 @@
 
 “P’Chun, you know this guy?” The girls were stunned, but still had enough presence of mind to get the words out.
 
-“Of course I do. He’s my best mate,” Chun said, flashing the girls a sweet, effortlessly charming smile. Their dreamy, melting eyes replaced the furious glares from a moment ago, as if someone had just changed the TV channel.
+“Of course I do. He’s my best mate,” Chun said, flashing the girls a sweet, effortlessly charming smile. The girls’ dreamy, melting eyes replaced the furious glares from a moment ago, as if someone had just changed the TV channel.
 
-“十年沒見了，也沒打過電話。我們還是「好朋友」，Yeah，陳俊偉？ (Ten years without seeing each other, not a single phone call. We’re *such* good friends, yeah, Tan Junwei?)” Not that I’m trying to be sarcastic or anything.
+“十年沒見了，也沒打過電話。我們還是「好朋友」，Yeah，陳俊偉？ (Ten years without seeing each other, not a single phone call. We’re _such_ good friends, yeah, Tan Junwei?)” Not that I’m trying to be sarcastic or anything.
 
-“Don’t tell me P’Chun flew all the way to Thailand just to see *this* guy.”
+“Don’t tell me P’Chun flew all the way to Thailand just to see _this_ guy.”
 
-*If he didn’t come to see me, then which stray dog did he fly here for?* Stupid question. Oh, right, I forgot. This guy could probably befriend a stray dog in front of a 7-Eleven in under two minutes.
+_If he didn’t come to see me, then which stray dog did he fly here for?_ Stupid question. Oh, right, I forgot. This guy could probably befriend a stray dog in front of any convenience store in under two minutes.
 
 “Yep. This is Guowei, my best mate.”
 
 “**KYAAA!!!**”
 
-All right, folks. A scream like that is extremely good at drawing attention. But instead of everyone assuming I’d done something awful to the girl in front of me, every person who turned to look immediately started screaming along, like some deadly contagious disease, the kind where you’d need to call in the CDC to contain the situation, stat.
+All right, folks. A scream like that is extremely good at drawing attention. But instead of everyone assuming I’d done something awful to the girl in front of me, every person who turned to look immediately started screaming along, like some deadly contagious disease was spreading through the crowds, the kind where you’d need to call in the emergency unit at CDC to contain the situation.
 
 “**IT’S P’CHUN AUSSIE BOY!!!**”
 
