@@ -1,6 +1,14 @@
 <?php
 session_start();
 
+function quickStripRuby(string $html): string {
+    // 1. Remove <rt> and <rp> tags along with their inner content
+    $withoutRuby = preg_replace('/<(rt|rp)\b[^>]*>.*?<\/\1>/is', '', $html);
+
+    // 2. Strip all remaining HTML tags
+    return strip_tags($withoutRuby);
+}
+
 // Configuration
 $PASSCODE = "151189"; // Change your 6-digit passcode here
 $BOOKS_JSON = 'books.json';
@@ -115,6 +123,7 @@ if ($book_id) {
         body.reader-mode-active #reader-mode-on {display: none;}
         body.reader-mode-active #reader-mode-off {display: inline-block;}
         img.portrait {max-width:60vw;width:200px;}
+        rt {font-weight:300;ruby-position:over;ruby-overhang:auto;margin-bottom:8px;}
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="marked.min.js"></script>
@@ -255,19 +264,19 @@ if ($book_id) {
         <?php if (!$book_id): ?>
             <!-- BOOK LIST VIEW -->
             <h2 class="text-2xl font-bold mb-6">Select a Book</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
                 <?php foreach ($books as $book): ?>
                     <a href="index.php?book=<?= $book['id'] ?>"
                        class="group bg-white dark:bg-gray-800 rounded-xl overflow-hidden border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md transition">
                         <div class="aspect-[2/3] overflow-hidden bg-gray-200 dark:bg-gray-700">
                             <img src="<?= htmlspecialchars($book['cover_image']) ?>"
-                                 alt="<?= htmlspecialchars($book['title']) ?>"
+                                 alt="<?= quickStripRuby($book['title']) ?>"
                                  class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
                         </div>
                         <div class="p-4">
                             <span
                                 class="text-xs font-semibold text-blue-600 dark:text-blue-400"><?= htmlspecialchars($book['genre']) ?></span>
-                            <h3 class="text-lg font-bold mt-1 group-hover:text-blue-500 transition"><?= htmlspecialchars($book['title']) ?></h3>
+                            <h3 class="text-lg font-bold mt-1 group-hover:text-blue-500 transition"><?= $book['title'] ?></h3>
                             <span
                                 class="text-xs font-semibold">by <?= htmlspecialchars($book['author']) ?> / <?= htmlspecialchars($book['language']) ?></span>
                         </div>
