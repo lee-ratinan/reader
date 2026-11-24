@@ -37,13 +37,19 @@ https://lee.ratinan.com</p>
 
 ### Gravitas Nostra (The Gravity Between Us)
 
-**พื้นที่พักใจ กับใครสักคน**
+<br/>
+
+**<ruby>พื้น<rt>phū́en</rt>ที่<rt>thī̂</rt>พัก<rt>phák</rt>ใจ<rt>jai</rt>กับ<rt>kàp</rt>ใคร<rt>khrai</rt>สัก<rt>sàk</rt>คน<rt>khon</rt></ruby>**
 
 <br/>
 
-在重力深處相擁
+<ruby>在<rt>zài</rt>重力<rt>zhònglì</rt>深處<rt>shēnchù</rt>相擁<rt>xiāngyōng</rt></ruby>
 
-僕らの<ruby>重力<rt>グラヴィタス</rt></ruby>
+<br/>
+
+<ruby>僕<rt>ぼく</rt>らの<rt></rt>重力<rt>グラヴィタス</rt></ruby>
+
+<br/>
 
 𐑜𐑮𐑨𐑝𐑦𐑑𐑨𐑕 𐑯𐑪𐑕𐑑𐑮𐑭 (𐑞 𐑜𐑮𐑨𐑝𐑦𐑑𐑦 𐑚𐑦𐑑𐑢𐑰𐑯 𐑳𐑕)
 
